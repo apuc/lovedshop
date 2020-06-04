@@ -11,6 +11,8 @@ class Widget
      */
     public $view;
 
+    protected $params;
+
     public $viewPath = '/widgets/views/';
     private $defaultViewPath = '/widgets/views/';
 
@@ -21,7 +23,15 @@ class Widget
         $this->view->setViewPath(WORKSPACE_DIR . $this->viewPath);
     }
 
-    public function run(){}
+    public function run()
+    {
+    }
+
+    public function setOptions($data)
+    {
+        $this->params = $data;
+        return $this;
+    }
 
     public static function widget()
     {

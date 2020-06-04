@@ -5,6 +5,8 @@ namespace workspace\modules\order\controllers;
 use core\App;
 use core\Controller;
 use core\Debug;
+use core\helpers\Form;
+use workspace\forms_vue\Forms;
 use workspace\modules\order\models\OrderProduct;
 use workspace\modules\order\models\Order;
 use workspace\modules\order\requests\OrderRequest;
@@ -12,6 +14,8 @@ use workspace\modules\order\requests\OrderSearchRequest;
 use workspace\modules\order\services\Ftp;
 use workspace\modules\order\services\FtpExchange;
 use workspace\modules\order\services\OrderXml;
+use workspace\modules\order\widgets\SearchDate;
+use workspace\modules\product\models\Product;
 use workspace\modules\product\services\ProductXML;
 
 class OrderController extends Controller
@@ -37,7 +41,7 @@ class OrderController extends Controller
             'serial' => '#',
             'fields' => [
                 'id' => [
-                    'label' => 'Номер заказа'
+                    'label' => 'Номер заказа',
                 ],
                 'city' => [
                     'label' => 'Город',
@@ -54,11 +58,29 @@ class OrderController extends Controller
                 ],
                 'delivery' => [
                     'label' => 'Тип доставки',
-                    'showFilter' => false,
+                    'filter' => [
+                        'value' => function ($val) {
+                            return Form::select('deliverySearch', Order::getDeliveryTypes(), [
+                                'prompt' => 'Тип доставки',
+                                'selected' => $val,
+                                'attr' => [
+                                    'class' => 'form-control __filter'
+                                ]
+                            ]);
+                        }
+                    ],
+                    'value' => function ($model) {
+                        return Order::getDeliveryTypes()[$model->delivery];
+                    }
                 ],
                 'delivery_date' => [
                     'label' => 'Дата доставки',
-                    'showFilter' => false,
+                    'filter' => [
+                        'widget' => SearchDate::class,
+                        'params' => [
+                            'name' => 'delivery_dateSearch'
+                        ]
+                    ],
                 ],
             ],
             'baseUri' => 'order',
@@ -95,7 +117,7 @@ class OrderController extends Controller
     public function actionStore()
     {
         $request = new OrderRequest();
-        if($request->isPost() && $request->validate()) {
+        if ($request->isPost() && $request->validate()) {
             $model = new Order();
             $model->city = $request->city;
             $model->email = $request->email;
@@ -115,16 +137,16 @@ class OrderController extends Controller
             $prodmodel->product_id = $request->product_id;
             $prodmodel->quantity = $request->quantity;
             $prodmodel->save();
-            $xml =  OrderXml::run()->createXml($model,$prodmodel);
+            $xml = OrderXml::run()->createXml($model, $prodmodel);
             $xml->save();
 
-            Ftp::run(App::$config['FTP'])->putFile(ROOT_DIR.DIRECTORY_SEPARATOR.'test.xml', 'orders'.DIRECTORY_SEPARATOR.'order_'.$model->id.'.xml');
+            Ftp::run(App::$config['FTP'])->putFile(ROOT_DIR . DIRECTORY_SEPARATOR . 'test.xml', 'orders' . DIRECTORY_SEPARATOR . 'order_' . $model->id . '.xml');
             //ProductXML::run()->executeXML();
             //FtpExchange::run()->sendFile();
 
             $this->redirect('admin/order');
         } else
-            return $this->render('order/store.tpl', ['h1' => 'Добавить заказ','errors' => $request->getMessagesArray()]);
+            return $this->render('order/store.tpl', ['h1' => 'Добавить заказ', 'errors' => $request->getMessagesArray()]);
     }
 
     public function actionEdit($id)
@@ -132,7 +154,7 @@ class OrderController extends Controller
         $model = Order::where('id', $id)->first();
         $prodmodel = OrderProduct::where('order_id', $id)->first();
         $request = new OrderRequest();
-        if($request->isPost() && $request->validate()) {
+        if ($request->isPost() && $request->validate()) {
             $model->city = $request->city;
             $model->email = $request->email;
             $model->fio = $request->fio;
@@ -157,13 +179,14 @@ class OrderController extends Controller
         Order::where('id', $_POST['id'])->delete();
     }
 
-    public function actionUpload($id){
+    public function actionUpload($id)
+    {
         $model = Order::where('id', $id)->first();
         $prodmodel = OrderProduct::where('order_id', $id)->first();
-        $xml =  OrderXml::run()->createXml($model,$prodmodel);
+        $xml = OrderXml::run()->createXml($model, $prodmodel);
         $xml->save();
 
-        Ftp::run(App::$config['FTP'])->putFile(ROOT_DIR.DIRECTORY_SEPARATOR.'test.xml', 'orders'.DIRECTORY_SEPARATOR.'order_'.$model->id.'.xml');
+        Ftp::run(App::$config['FTP'])->putFile(ROOT_DIR . DIRECTORY_SEPARATOR . 'test.xml', 'orders' . DIRECTORY_SEPARATOR . 'order_' . $model->id . '.xml');
         $this->redirect('admin/order');
     }
 }

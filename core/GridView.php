@@ -98,10 +98,11 @@ class GridView extends Widget
             }
 
             foreach ($this->options['fields'] as $key => $option)
-                if (isset($this->model[$i]->$key))
-                    $table .= '<td>' . $this->model[$i]->$key . '</td>';
-                elseif (isset($this->options['fields'][$key]['label']))
+
+                if (isset($this->options['fields'][$key]['value']))
                     $table .= '<td>' . call_user_func($this->options['fields'][$key]['value'], $this->model[$i]) . '</td>';
+                elseif (isset($this->model[$i]->$key))
+                    $table .= '<td>' . $this->model[$i]->$key . '</td>';
                 else
                     $table .= '<td></td>';
 
@@ -136,7 +137,17 @@ class GridView extends Widget
                 $html .= '<td></td>';
             } else {
                 $val = isset($_GET[$key . 'Search']) ? $_GET[$key . 'Search'] : '';
-                $html .= '<td><input class="form-control __filter" type="text" name="' . $key . 'Search" value="'. $val .'"></td>';
+                if (isset($field['filter'])) {
+                    if (isset($field['filter']['value'])) {
+                        $html .= '<td>' . call_user_func($field['filter']['value'], $val) . '</td>';
+                    } elseif (isset($field['filter']['widget'])) {
+                        $w = call_user_func_array([$field['filter']['widget'], 'widget'], []);
+                        $html .= '<td>' . $w->setOptions($field['filter']['params'])->run() . '</td>';
+                    }
+                } else {
+                    $html .= '<td><input class="form-control __filter" type="text" name="' . $key . 'Search" value="' . $val . '"></td>';
+                }
+
             }
         }
         $html .= '</form></tr>';

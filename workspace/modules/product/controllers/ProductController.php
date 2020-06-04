@@ -37,9 +37,12 @@ class ProductController extends Controller
                 'name' => [
                     'label' => 'Название'
                 ],
-                'price' => ['label' => 'Цена', 'value' => function ($model) {
-                    return isset($model->vp->first()->price) ? $model->vp->first()->price : null;
-                }],
+                'price' => [
+                    'label' => 'Цена',
+                    'value' => function ($model) {
+                        return isset($model->vp->first()->price) ? $model->vp->first()->price : null;
+                    }
+                ],
             ],
             'baseUri' => 'product',
         ];

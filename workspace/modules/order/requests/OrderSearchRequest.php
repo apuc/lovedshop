@@ -12,6 +12,8 @@ use core\RequestSearch;
  * @property string $fio
  * @property string $email
  * @property string $phone
+ * @property string $delivery_date
+ * @property integer $delivery
  */
 class OrderSearchRequest extends RequestSearch
 {
@@ -20,6 +22,8 @@ class OrderSearchRequest extends RequestSearch
     public $fio;
     public $email;
     public $phone;
+    public $delivery;
+    public $delivery_date;
 
     public function rules()
     {
