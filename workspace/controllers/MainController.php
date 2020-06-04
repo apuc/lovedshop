@@ -22,19 +22,54 @@ class MainController extends Controller
 
     public function actionIndex()
     {
-        echo Form::select('test', [
+        $this->view->setTitle('Main Page');
+        $this->view->addMeta('keywords', 'главная', ['some' => 'text']);
+        echo Form::start('test', [
+            'attr' => [
+                'method'=>'POST',
+                'class' => 'form-control',
+                'action' => '/someaction'
+            ]
+        ]);
+        echo Form::input('test', [
+            'attr' => [
+                'placeholder' => 'Write here some text',
+                'value' => '',
+                'type' => 'text',
+                'class' => 'form-control',
+            ]
+        ]);
+        echo Form::checkBox('test', [
             'one' => 'Один',
             'two' => 'Два',
             'three' => 'Три'
         ], [
-            'selected' => 'two',
+            'checked' => 'two',
             'disabled' => 'one',
             'attr' => [
                 'class' => 'form-control',
             ]
         ]);
-        $this->view->setTitle('Main Page');
-        $this->view->addMeta('keywords', 'главная', ['some' => 'text']);
+        echo Form::radioButton('test', [
+            'one' => 'Один',
+            'two' => 'Два',
+            'three' => 'Три'
+        ], [
+            'checked' => 'two',
+            'disabled' => 'one',
+            'attr' => [
+                'class' => 'form-control',
+            ]
+        ]);
+        echo Form::submitButton('test', [
+            'attr' => [
+                'value' => 'OTPRAVIT`',
+                'type' => 'text',
+                'class' => 'form-control',
+            ]
+        ]);
+        echo Form::end();
+
 //        $this->view->registerJs('/resources/js/bodyScript.js', [], true);
 
         return $this->render('main/index.tpl', ['h1' => 'Проект ' . App::$config['app_name']]);
