@@ -17,7 +17,7 @@ class ProductCSV
 
     public function executeCSV($path = 'product.csv')
     {
-        Ftp::run(App::$config['FTP'])->getFile('product.csv','orders/product.csv');
+       // Ftp::run(App::$config['FTP'])->getFile('product.csv','orders/product.csv');
         $i = 0;
         foreach (file('product.csv') as $prod){
             if($i === 0) {
