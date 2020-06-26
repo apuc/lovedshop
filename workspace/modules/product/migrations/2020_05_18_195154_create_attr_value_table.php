@@ -18,6 +18,7 @@ class CreateAttrValueTable extends Migration
             $table->increments('id');
             $table->integer('attr_id')->unsigned();
             $table->string('value',255);
+            $table->timestamps();
             $table->foreign('attr_id')->references('id')->on('attribute');
         });
     }

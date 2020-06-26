@@ -34,7 +34,7 @@ class VirtualProductAttrController extends Controller
             'baseUri' => 'attribute'
         ];
 
-        return $this->render('virtualproductattr/virtualproductattr.tpl', ['h1' => 'virtualproductattr', 'model' => $model, 'options' => $options]);
+        return $this->render('virtualproductattr.tpl', ['h1' => 'virtualproductattr', 'model' => $model, 'options' => $options]);
     }
 
     public function actionView($id)
@@ -49,7 +49,7 @@ class VirtualProductAttrController extends Controller
             ],
         ];
 
-        return $this->render('virtualproductattr/view.tpl', ['model' => $model, 'options' => $options]);
+        return $this->render('view.tpl', ['model' => $model, 'options' => $options]);
     }
 
     public function actionStore()
@@ -61,9 +61,9 @@ class VirtualProductAttrController extends Controller
             $model->status = $_POST['status'];
             $model->save();
 
-            $this->redirect('virtualproductattr');
+            $this->redirect('admin/virtualproductattr');
         } else
-            return $this->render('virtualproductattr/store.tpl', ['h1' => 'Добавить virtualproductattr']);
+            return $this->render('store.tpl', ['h1' => 'Добавить virtualproductattr']);
     }
 
     public function actionEdit($id)
@@ -76,9 +76,9 @@ class VirtualProductAttrController extends Controller
             $model->status = $_POST['status'];
             $model->save();
 
-            $this->redirect('virtualproductattr');
+            $this->redirect('admin/virtualproductattr');
         } else
-            return $this->render('virtualproductattr/edit.tpl', ['h1' => 'Редактировать: ', 'model' => $model]);
+            return $this->render('edit.tpl', ['h1' => 'Редактировать: ', 'model' => $model]);
     }
 
     public function actionDelete()

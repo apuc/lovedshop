@@ -10,6 +10,7 @@ use workspace\modules\product\models\ProductPhoto;
 use workspace\modules\product\models\VirtualProduct;
 use workspace\modules\product\requests\ProductRequest;
 use workspace\modules\product\requests\ProductSearchRequest;
+use workspace\modules\product\services\ProductCSV;
 use workspace\modules\product\services\ProductXML;
 
 class ProductController extends Controller
@@ -127,7 +128,7 @@ class ProductController extends Controller
 
     public function actionDownload()
     {
-        ProductXML::run()->executeXML();
+        ProductCSV::run()->executeCSV();
         $this->redirect('admin/product');
     }
 }

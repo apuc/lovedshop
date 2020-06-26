@@ -17,6 +17,7 @@ class CreateAttributeTable extends Migration
         App::$db->schema->create('attribute', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name',255);
+            $table->timestamps();
         });
     }
 

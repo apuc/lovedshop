@@ -4,7 +4,10 @@ namespace workspace\modules\product\controllers;
 
 use core\App;
 use core\Controller;
+use core\Debug;
+use workspace\modules\product\models\Attribute;
 use workspace\modules\product\models\AttrValue;
+use workspace\modules\product\requests\AttrValueRequest;
 
 class AttrValueController extends Controller
 {
@@ -23,21 +26,22 @@ class AttrValueController extends Controller
     public function actionIndex()
     {
         $model = AttrValue::all();
-
         $options = [
             'serial' => '#',
             'fields' => [
-                'attr_id' => [
-                    'label' => 'attr_id'
-                ],
+                'Атрибут' => ['label' => 'Атрибут', 'value' => function ($model) {
+                    $attr = Attribute::where('id', $model->attr_id)->first();
+
+                    return !empty($attr->name) ? $attr->name : null;
+                }],
                 'value' => [
-                    'label' => 'value'
+                    'label' => 'Значение'
                 ],
             ],
             'baseUri' => 'attrvalue'
         ];
 
-        return $this->render('attrvalue/attrvalue.tpl', ['h1' => 'AttrValue', 'model' => $model, 'options' => $options]);
+        return $this->render('attrvalue.tpl', ['h1' => 'Значение атрибутов', 'model' => $model, 'options' => $options]);
     }
 
     public function actionView($id)
@@ -56,15 +60,16 @@ class AttrValueController extends Controller
 
     public function actionStore()
     {
-        if(isset($_POST['value']) && isset($_POST['attr_id'])) {
+        $request = new AttrValueRequest();
+        if($request->isPost() && $request->validate()) {
             $model = new AttrValue();
-            $model->attr_id = $_POST['attr_id'];
-            $model->value = $_POST['value'];
+            $model->attr_id = $request->attr_id;
+            $model->value = $request->value;
             $model->save();
-
-            $this->redirect('attrvalue');
+            $this->redirect('admin/attrvalue');
         } else
-            return $this->render('attrvalue/store.tpl', ['h1' => 'Добавить']);
+            $attribute = Attribute::all();
+            return $this->render('store.tpl', ['h1' => 'Добавить','attribute'=>$attribute]);
     }
 
     public function actionEdit($id)
@@ -76,9 +81,10 @@ class AttrValueController extends Controller
             $model->value = $_POST['value'];
             $model->save();
 
-            $this->redirect('attrvalue');
+            $this->redirect('admin/attrvalue');
         } else
-            return $this->render('attrvalue/edit.tpl', ['h1' => 'Редактировать: ', 'model' => $model]);
+            $attribute = Attribute::all();
+            return $this->render('edit.tpl', ['h1' => 'Редактировать: ', 'model' => $model, 'attribute'=>$attribute]);
     }
 
     public function actionDelete()

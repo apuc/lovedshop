@@ -5,6 +5,7 @@ namespace workspace\modules\product\controllers;
 use core\App;
 use core\Controller;
 use workspace\modules\product\models\Attribute;
+use workspace\modules\product\requests\AttributeRequest;
 
 class AttributeController extends Controller
 {
@@ -17,7 +18,7 @@ class AttributeController extends Controller
         $this->viewPath = '/modules/product/views/attribute';
         $this->layoutPath = App::$config['adminLayoutPath'];
         App::$breadcrumbs->addItem(['text' => 'AdminPanel', 'url' => 'adminlte']);
-        App::$breadcrumbs->addItem(['text' => 'Attribute', 'url' => 'attribute']);
+        App::$breadcrumbs->addItem(['text' => 'Атрибуты', 'url' => 'attribute']);
     }
 
     public function actionIndex()
@@ -34,7 +35,7 @@ class AttributeController extends Controller
             'baseUri' => 'attribute'
         ];
 
-        return $this->render('attribute/attribute.tpl', ['h1' => 'Атрибут', 'model' => $model, 'options' => $options]);
+        return $this->render('attribute.tpl', ['h1' => 'Атрибут', 'model' => $model, 'options' => $options]);
     }
 
     public function actionView($id)
@@ -47,32 +48,34 @@ class AttributeController extends Controller
             ],
         ];
 
-        return $this->render('attribute/view.tpl', ['model' => $model, 'options' => $options]);
+        return $this->render('view.tpl', ['model' => $model, 'options' => $options]);
     }
 
     public function actionStore()
     {
-        if(isset($_POST['name'])) {
+        $request = new AttributeRequest();
+        if ($request->isPost() && $request->validate()) {
             $model = new Attribute();
-            $model->name = $_POST['name'];
+            $model->name = $request->name;
             $model->save();
 
-            $this->redirect('attribute');
+            $this->redirect('admin/attribute');
         } else
-            return $this->render('attribute/store.tpl', ['h1' => 'Добавить атрибут']);
+            return $this->render('store.tpl', ['h1' => 'Добавить атрибут']);
     }
 
     public function actionEdit($id)
     {
+        $request = new AttributeRequest();
         $model = Attribute::where('id', $id)->first();
 
-        if(isset($_POST['name'])) {
-            $model->name = $_POST['name'];
+        if ($request->isPost() && $request->validate()) {
+            $model->name = $request->name;
             $model->save();
 
-            $this->redirect('attribute');
+            $this->redirect('admin/attribute');
         } else
-            return $this->render('attribute/edit.tpl', ['h1' => 'Редактировать: ', 'model' => $model]);
+            return $this->render('edit.tpl', ['h1' => 'Редактировать: ', 'model' => $model]);
     }
 
     public function actionDelete()
