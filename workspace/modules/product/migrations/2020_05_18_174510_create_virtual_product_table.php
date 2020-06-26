@@ -18,7 +18,6 @@ class CreateVirtualProductTable extends Migration
             $table->increments('id');
             $table->integer('product_id')->unsigned();
             $table->float('price');
-            $table->foreign('product_id')->references('id')->on('product');
             $table->timestamps();
         });
     }
@@ -30,9 +29,6 @@ class CreateVirtualProductTable extends Migration
      */
     public function down()
     {
-        App::$db->schema->table('virtual_product', function ($table) {
-            $table->dropForeign(['product_id']);
-        });
         App::$db->schema->dropIfExists('virtual_product');
     }
 }

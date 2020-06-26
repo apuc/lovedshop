@@ -18,7 +18,6 @@ class CreateProductPhoto extends Migration
             $table->increments('id');
             $table->string('photo', 255);
             $table->integer('product_id')->unsigned();
-            $table->foreign('product_id')->references('id')->on('product');
             $table->timestamps();
         });
     }
@@ -30,9 +29,6 @@ class CreateProductPhoto extends Migration
      */
     public function down()
     {
-        App::$db->schema->table('product_photo', function ($table) {
-            $table->dropForeign(['product_id']);
-        });
         App::$db->schema->dropIfExists('product_photo');
     }
 }

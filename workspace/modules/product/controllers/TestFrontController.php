@@ -5,6 +5,8 @@ namespace workspace\modules\product\controllers;
 
 use core\App;
 use core\Controller;
+use core\Debug;
+use core\Pagination;
 use workspace\modules\order\models\OrderProduct;
 use workspace\modules\order\models\Order;
 use workspace\modules\order\services\Ftp;
@@ -23,7 +25,7 @@ class TestFrontController extends Controller
         //if(!isset($_SESSION['role']) || $_SESSION['role'] != 1) $this->redirect('');
 
         $this->viewPath = '/modules/product/views/front';
-        //$this->layoutPath = App::$config['adminLayoutPath'];
+        $this->layoutPath = '/modules/product/views/front/layouts/';
         App::$breadcrumbs->addItem(['text' => 'AdminPanel', 'url' => 'adminlte']);
         App::$breadcrumbs->addItem(['text' => 'Список товаров', 'url' => 'testfront']);
     }
@@ -31,34 +33,11 @@ class TestFrontController extends Controller
     public function actionCatalog(){
         {
             $model = Product::all();
+            $vp = VirtualProduct::orderBy('product_id', 'DESC')->get();
+            $photo = ProductPhoto::orderBy('product_id', 'DESC')->get();
+           // $pagination = Pagination::widget()->setParams('/catalog/',count($model),[])->run();
 
-            $options = [
-                'serial' => '#',
-                'fields' => [
-                    'photo' => ['label' => 'Фото', 'value' => function ($model) {
-                        $photo = ProductPhoto::where('product_id', $model->id)->first();
-                        return !empty($photo->photo) ? "<img src='$photo->photo' style='max-width: 100px'/>" : null;
-                    }],
-                    'name' => [
-                        'label' => 'Название'
-                    ],
-                    'price' => ['label' => 'Цена', 'value' => function ($model) {
-                        $vp = VirtualProduct::where('product_id', $model->id)->first();
-                        return !empty($vp->price) ? $vp->price : null;
-                    }],
-                    'buy'=>[
-                        'label' => 'КУПИТЬ',
-                        'value' => function($model){ return "<a href='/testfront/order/$model->id' class='btn btn-dark'>Купить</a>";}
-                    ],
-                    'show'=>[
-                        'label' => 'Просмотреть',
-                        'value' => function($model){ return "<a href='/testfront/oneproduct/$model->id' class='btn btn-dark'>Просмотреть</a>";}
-                    ]
-                ],
-                'baseUri' => 'product'
-            ];
-
-            return $this->render('catalog.tpl', ['h1' => 'Товар', 'model' => $model, 'options' => $options]);
+            return $this->render('catalog.tpl', ['h1' => 'Товары', 'model' => $model, 'vp' => $vp, 'photo' => $photo]);
         }
     }
     public function actionOrder($id)

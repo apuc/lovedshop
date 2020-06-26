@@ -40,4 +40,12 @@ class Product extends Model
 
         return $query->get();
     }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function photo()
+    {
+        return $this->hasMany('workspace\modules\product\models\ProductPhoto');
+    }
 }
