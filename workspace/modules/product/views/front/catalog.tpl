@@ -34,12 +34,12 @@
                     {foreach from=$model item=mode}
                     <div class="main_catalog__items-item">
                         <div class="main_catalog__items-item_img">
-                            <a href="">
+                            <a href="/testfront/oneproduct/{$mode->id}">
                                 <img src="{$mode->photo->first()->photo}" alt="">
                             </a>
                         </div>
                         <div class="main_catalog__items-item_title">
-                            <a href="/testfront/order/{$mode->id}">{$mode->name}</a>
+                            <a href="/testfront/oneproduct/{$mode->id}">{$mode->name}</a>
                         </div>
                         <div class="main_catalog__items-item_price">{$mode->vp->first()->price} &#8381;</div>
                         <div class="main_catalog__items-item_tocart">

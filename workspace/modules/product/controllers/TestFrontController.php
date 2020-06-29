@@ -33,11 +33,9 @@ class TestFrontController extends Controller
     public function actionCatalog(){
         {
             $model = Product::all();
-            $vp = VirtualProduct::orderBy('product_id', 'DESC')->get();
-            $photo = ProductPhoto::orderBy('product_id', 'DESC')->get();
-           // $pagination = Pagination::widget()->setParams('/catalog/',count($model),[])->run();
+            //$pagination = Pagination::widget()->setParams('/catalog/',count($model),[])->run();
 
-            return $this->render('catalog.tpl', ['h1' => 'Товары', 'model' => $model, 'vp' => $vp, 'photo' => $photo]);
+            return $this->render('catalog.tpl', ['h1' => 'Товары', 'model' => $model]);
         }
     }
     public function actionOrder($id)
@@ -110,30 +108,7 @@ class TestFrontController extends Controller
     public function actionOneProduct($id)
     {
         $model = Product::where('id', $id)->first();
-        $photo = ProductPhoto::where('product_id', $model->id)->first();
-        $options = [
-            'fields' => [
-                'id'=>'Номер товара',
-                'photo' => ['label' => 'Фото', 'value' => function ($model) {
-                    $photo = ProductPhoto::where('product_id', $model->id)->first();
-                    return !empty($photo->photo) ? "<img src='/$photo->photo' style='max-width: 100px'/>" : null;
-                }],
-                'name' => 'Название',
-                'description' => 'Описание',
-                'price' => ['label' => 'Цена', 'value' => function ($model) {
-                    $vp = VirtualProduct::where('product_id', $model->id)->first();
-
-                    return !empty($vp->price) ? $vp->price : null;
-                }],
-                'status' => 'Статус',
-                'buy'=>[
-                    'label' => 'КУПИТЬ',
-                    'value' => function($model){ return "<a href='/testfront/order/$model->id' class='btn btn-dark'>Купить</a>";}
-                ]
-            ],
-        ];
-
-        return $this->render('product.tpl', ['model' => $model, 'options' => $options, 'photo'=>$photo]);
+        return $this->render('product.tpl', ['model' => $model]);
     }
 
 }
