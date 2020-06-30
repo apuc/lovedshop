@@ -53,9 +53,9 @@
                     <p>Цена:</p>
                     <div class="card_order__price">{$model->vp->first()->price} &#8381;</div>
                     <div class="card_order__calc">
-                        <button class="card_order__minus"><img src="img/minus.svg" alt=""></button>
+                        <button class="card_order__minus"><img src="/resources/img/minus.svg" alt=""></button>
                         <input type="text" value="1">
-                        <button class="card_order__plus"><img src="img/plus.svg" alt=""></button>
+                        <button class="card_order__plus"><img src="/resources/img/plus.svg" alt=""></button>
                     </div>
                     <button class="add_to_cart">Добавить в корзину</button>
                     <div class="card_order_available">Доступно: <span>26</span></div>

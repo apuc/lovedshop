@@ -30,12 +30,26 @@ class TestFrontController extends Controller
         App::$breadcrumbs->addItem(['text' => 'Список товаров', 'url' => 'testfront']);
     }
 
-    public function actionCatalog(){
+    public function actionCatalog($page = 1){
         {
-            $model = Product::all();
-            //$pagination = Pagination::widget()->setParams('/catalog/',count($model),[])->run();
+            $options = [
+                'pagination' => [
+                    'per_page' => 10,
+                    'class' => '',
+                    'class-active' => 'active',
+                    'class-control' => '',
+                ]
+            ];
+            $start = $page-1;
+            if($start != 0){
+                $start = $start*$options['pagination']['per_page'];
+            }
+            $all =  Product::all();
+            $model = Product::offset($start)->limit($options['pagination']['per_page'])->get();
+//            Debug::dd($model);
+            $pagination = Pagination::class;
 
-            return $this->render('catalog.tpl', ['h1' => 'Товары', 'model' => $model]);
+            return $this->render('catalog.tpl', ['h1' => 'Товары', 'model' => $model, 'pagination' => $pagination, 'options' => $options, 'page' => $page, 'all' => $all]);
         }
     }
     public function actionOrder($id)

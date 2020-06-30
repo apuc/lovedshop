@@ -35,7 +35,7 @@
                     <div class="main_catalog__items-item">
                         <div class="main_catalog__items-item_img">
                             <a href="/testfront/oneproduct/{$mode->id}">
-                                <img src="{$mode->photo->first()->photo}" alt="">
+                                <img src="/{$mode->photo->first()->photo}" alt="">
                             </a>
                         </div>
                         <div class="main_catalog__items-item_title">
@@ -49,10 +49,7 @@
                     {/foreach}
                 </div>
                 <div class="pagination">
-                    <a href="" class="active">1</a>
-                    <a href="">2</a>
-                    <a href="">3</a>
-                    <a href="">4</a>
+                    {$pagination::widget()->setParams('/catalog/', count($all), $options['pagination'], $page)->run()}
                 </div>
             </div>
         </div>
