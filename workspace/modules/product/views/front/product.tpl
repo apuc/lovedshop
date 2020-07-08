@@ -57,7 +57,7 @@
                         <input type="text" value="1">
                         <button class="card_order__plus"><img src="/resources/img/plus.svg" alt=""></button>
                     </div>
-                    <button class="add_to_cart">Добавить в корзину</button>
+                    <button class="add_to_cart"><a href="/testfront/order/{$model->id}">Добавить в корзину</a></button>
                     <div class="card_order_available">Доступно: <span>26</span></div>
                 </form>
             </div>

@@ -43,7 +43,7 @@
                         </div>
                         <div class="main_catalog__items-item_price">{$mode->vp->first()->price} &#8381;</div>
                         <div class="main_catalog__items-item_tocart">
-                            <a href=""><img src="/resources/img/cart.svg" alt=""></a>
+                            <a href="/testfront/order/{$mode->id}"><img src="/resources/img/cart.svg" alt=""></a>
                         </div>
                     </div>
                     {/foreach}

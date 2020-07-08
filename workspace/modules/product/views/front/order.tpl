@@ -1,5 +1,4 @@
 {core\App::$breadcrumbs->addItem(['text' => 'Create'])}
-<div class="h1">{$h1}</div>
 
 <div class="container">
 
@@ -10,64 +9,66 @@
             </div>
         {/foreach}
     {/if}
+<section class="top_nav">
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="">Главная</a>
+        </div>
+        <div class="top_nav__title">
+            <h1>Оформление заказа</h1>
+        </div>
+    </div>
+</section>
 
-    <form class="form-horizontal" name="create_form" id="create_form" method="post" action="/testfront/order/{$product[0]->id}">
-        <div class="form-group">
-            <label for="city">Город:</label>
-            <input type="text" name="city" id="city" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="email">Эл. почта:</label>
-            <input type="text" name="email" id="email" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="fio">ФИО:</label>
-            <input type="text" name="fio" id="fio" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="phone">Телефон:</label>
-            <input type="text" name="phone" id="phone" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="pay">Тип оплаты:</label>
-            <input type="number" name="pay" id="pay" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="delivery">Тип доставки:</label>
-            <input type="number" name="delivery" id="delivery" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="shop_id">Номер магазина:</label>
-            <input type="number" name="shop_id" id="shop_id" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="delivery_date">Дата доставки:</label>
-            <input type="date" name="delivery_date" id="delivery_date" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="delivery_time">Время доставки:</label>
-            <input type="text" name="delivery_time" id="delivery_time" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="address">Адрес:</label>
-            <input type="text" name="address" id="address" class="form-control" required="required"/>
-        </div>
-        <div class="form-group">
-            <label for="comment">Комментарий:</label>
-            <textarea type="text" name="comment" id="comment" class="form-control" required="required"></textarea>
-        </div>
-        <div class="form-group">
-            <label for="quantity">Количество:</label>
-            <input type="number" name="quantity" id="quantity" class="form-control" required="required"/>
-        </div>
-        {core\GridView::widget()
-        ->deleteActionBtn('edit')
-        ->deleteActionBtn('store')
-        ->deleteActionBtn('delete')
-        ->setParams($product, $options)
-        ->run()}
-        <div class="form-group">
-            <input type="submit" name="submit" id="submit_button" class="btn btn-default" value="Submit">
-        </div>
-    </form>
-</div>
+<section class="order">
+    <div class="container">
+        <form  name="create_form" id="create_form" method="post" action="/testfront/order/{$product[0]->id}" class="order_form">
+            <div class="order_form__left">
+                <div class="order_info">
+                    <div class="order_info__item">
+                        <div class="order_info__title">Личные данные</div>
+                        <p>Введите ФИО</p>
+                        <input type="text" name="fio" id="fio" required="required"/>
+                        <p>Email</p>
+                        <input type="text" name="email" id="email" required="required"/>
+                        <p>Номер телефона</p>
+                        <input type="text" name="phone" id="phone" required="required"/>
+                        <p>Город</p>
+                        <input type="text" name="city" id="city" required="required"/>
+                        <p>Адрес</p>
+                        <input type="text" name="address" id="address" class="form-control" required="required"/>
+                        <p>Комментарий к заказу</p>
+                        <textarea type="text" name="comment" id="comment" required="required"></textarea>
+                        <p>Колиество товара</p>
+                        <input type="number" name="quantity" id="quantity" required="required"/>
+                    </div>
+                    <div class="order_info__item">
+                        <div class="order_info__title">Дата и время получения</div>
+                        <p>Укажите дату</p>
+                        <input type="date" name="delivery_date" id="delivery_date" required="required"/>
+                        <p>Укажите время</p>
+                        <input type="text" name="delivery_time" id="delivery_time" required="required"/>
+                    </div>
+                </div>
+            </div>
+            <div class="order_form__right">
+                <div class="cart_total">
+                    <p>Товары</p>
+                    <div class="cart_total__price">{$product->vp->first()->price} &#8381;</div>
+                    <p>Доставка</p>
+                    <div class="cart_total__price">250 &#8381;</div>
+                    <p>Итого</p>
+                    <div class="cart_total__price">{$product->vp->first()->price + 250} &#8381;</div>
+                    <div class="order_payment">
+                        <p>Способ оплаты</p>
+                        <input type="radio" name="pay" value="0" id="pay1">
+                        <label for="pay1">Оплата картой на сайте</label>
+                        <input type="radio" name="pay" value="1" id="pay2">
+                        <label for="pay2">Оплата при получениие</label>
+                    </div>
+                    <button type="submit" name="submit" id="submit_button" class="add_to_cart" value="Submit">Оформить заказ</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

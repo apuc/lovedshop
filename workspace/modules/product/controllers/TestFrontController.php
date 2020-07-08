@@ -46,7 +46,6 @@ class TestFrontController extends Controller
             }
             $all =  Product::all();
             $model = Product::offset($start)->limit($options['pagination']['per_page'])->get();
-//            Debug::dd($model);
             $pagination = Pagination::class;
 
             return $this->render('catalog.tpl', ['h1' => 'Товары', 'model' => $model, 'pagination' => $pagination, 'options' => $options, 'page' => $page, 'all' => $all]);
@@ -54,20 +53,7 @@ class TestFrontController extends Controller
     }
     public function actionOrder($id)
     {
-        $options = [
-            'serial' => '#',
-            'fields' => [
-                'name' => [
-                    'label' => 'Название'
-                ],
-                'price' => ['label' => 'Цена', 'value' => function ($product) {
-                    $vp = VirtualProduct::where('product_id', $product->id)->first();
-                    return !empty($vp->price) ? $vp->price : null;
-                }],
-            ],
-            'baseUri' => 'product'
-        ];
-        $product = Product::where('id',$id)->take(1)->get();
+        $product = Product::where('id',$id)->first();
         $request = new FrontRequest();
         if($request->isPost() && $request->validate()) {
             $model = new Order();
@@ -78,8 +64,8 @@ class TestFrontController extends Controller
             $model->fio = $request->fio;
             $model->phone = $request->phone;
             $model->pay = $request->pay;
-            $model->delivery = $request->delivery;
-            $model->shop_id = $request->shop_id;
+            $model->delivery = 1;
+            $model->shop_id = 522;
             $model->delivery_date = $request->delivery_date;
             $model->delivery_time = $request->delivery_time;
             $model->address = $request->address;
@@ -94,26 +80,9 @@ class TestFrontController extends Controller
             $xml =  OrderXml::run()->createXml($model,$prodmodel);
             $xml->save();
             Ftp::run(App::$config['FTP'])->putFile(ROOT_DIR.DIRECTORY_SEPARATOR.'test.xml', 'orders'.DIRECTORY_SEPARATOR.'order_'.$model->id.'.xml');
-
-            $options = [
-                'serial' => '#',
-                'fields' => [
-                    'name' => [
-                        'label' => 'Название'
-                    ],
-                    'price' => ['label' => 'Цена', 'value' => function ($product) {
-                        $vp = VirtualProduct::where('product_id', $product->id)->first();
-                        return !empty($vp->price) ? $vp->price : null;
-                    }],
-                ],
-                'baseUri' => 'product'
-            ];
-
             $this->redirect('catalog');
         } else
             return $this->render('order.tpl', [
-                'h1' => 'Отправить заказ',
-                'options'=>$options,
                 'product'=>$product,
                 'errors' => $request->getMessagesArray(),
                 ]);

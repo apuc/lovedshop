@@ -4,6 +4,7 @@
 {include file="{$workspace_dir}/modules/product/assets/resources.tpl"}
 <head>
     {$smarty.capture.meta}
+    <meta name="robots" content="noindex" />
     <title>{$title}</title>
     {$meta}
     {*    <title>{$smarty.capture.title}</title>*}
