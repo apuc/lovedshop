@@ -20,9 +20,10 @@
     </div>
 </section>
 
+
 <section class="order">
     <div class="container">
-        <form  name="create_form" id="create_form" method="post" action="/testfront/order/{$product[0]->id}" class="order_form">
+        <form  name="create_form" id="create_form" method="post" action="/testfront/order/{$product->id}" class="order_form">
             <div class="order_form__left">
                 <div class="order_info">
                     <div class="order_info__item">
@@ -54,11 +55,11 @@
             <div class="order_form__right">
                 <div class="cart_total">
                     <p>Товары</p>
-                    <div class="cart_total__price">{$product->vp->first()->price} &#8381;</div>
+                    <div class="cart_total__price">26 300 &#8381;</div>
                     <p>Доставка</p>
                     <div class="cart_total__price">250 &#8381;</div>
                     <p>Итого</p>
-                    <div class="cart_total__price">{$product->vp->first()->price + 250} &#8381;</div>
+                    <div class="cart_total__price">26 550 &#8381;</div>
                     <div class="order_payment">
                         <p>Способ оплаты</p>
                         <input type="radio" name="pay" value="0" id="pay1">
