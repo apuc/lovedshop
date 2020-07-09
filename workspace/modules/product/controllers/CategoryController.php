@@ -4,7 +4,9 @@ namespace workspace\modules\product\controllers;
 
 use core\App;
 use core\Controller;
+use core\Debug;
 use workspace\modules\product\models\Category;
+use workspace\modules\product\services\NestedSet;
 
 class CategoryController extends Controller
 {
@@ -22,19 +24,32 @@ class CategoryController extends Controller
 
     public function actionIndex()
     {
+        NestedSet::addItem(3,[]);
+        foreach (NestedSet::getParent(3) as $it) {
+            Debug::prn($it->name);
+        }die();
         $model = Category::all();
 
         $options = [
             'serial' => '#',
             'fields' => [
                 'name' => [
-                    'label' => 'Атрибут'
+                    'label' => 'Название'
+                ],
+                'title' => [
+                    'label' => 'title'
+                ],
+                'description' => [
+                    'label' => 'Описание'
+                ],
+                'status' => [
+                    'label' => 'Статус'
                 ],
             ],
-            'baseUri' => 'attribute'
+            'baseUri' => 'category'
         ];
 
-        return $this->render('category/category.tpl', ['h1' => 'Категория', 'model' => $model, 'options' => $options]);
+        return $this->render('category.tpl', ['h1' => 'Категория', 'model' => $model, 'options' => $options]);
     }
 
     public function actionView($id)
@@ -50,7 +65,7 @@ class CategoryController extends Controller
             ],
         ];
 
-        return $this->render('category/view.tpl', ['model' => $model, 'options' => $options]);
+        return $this->render('view.tpl', ['model' => $model, 'options' => $options]);
     }
 
     public function actionStore()
@@ -65,7 +80,7 @@ class CategoryController extends Controller
 
             $this->redirect('category');
         } else
-            return $this->render('category/store.tpl', ['h1' => 'Добавить категорию']);
+            return $this->render('store.tpl', ['h1' => 'Добавить категорию']);
     }
 
     public function actionEdit($id)
@@ -81,7 +96,7 @@ class CategoryController extends Controller
 
             $this->redirect('category');
         } else
-            return $this->render('category/edit.tpl', ['h1' => 'Редактировать: ', 'model' => $model]);
+            return $this->render('edit.tpl', ['h1' => 'Редактировать: ', 'model' => $model]);
     }
 
     public function actionDelete()
