@@ -6,6 +6,7 @@ use core\App;
 use core\Controller;
 use core\Debug;
 use workspace\modules\product\models\Category;
+use workspace\modules\product\services\CategoryXML;
 use workspace\modules\product\services\NestedSet;
 
 class CategoryController extends Controller
@@ -24,10 +25,6 @@ class CategoryController extends Controller
 
     public function actionIndex()
     {
-        NestedSet::addItem(3,[]);
-        foreach (NestedSet::getParent(3) as $it) {
-            Debug::prn($it->name);
-        }die();
         $model = Category::all();
 
         $options = [
@@ -102,5 +99,11 @@ class CategoryController extends Controller
     public function actionDelete()
     {
         Category::where('id', $_POST['id'])->delete();
+    }
+
+    public function actionDownload()
+    {
+        CategoryXML::run()->executeXML();
+        $this->redirect('admin/category');
     }
 }

@@ -18,8 +18,8 @@ class CreateCategoryChTable extends Migration
             $table->increments('id');
             $table->integer('category_id')->unsigned();
             $table->integer('characteristic_id')->unsigned();
-            $table->foreign('category_id')->references('id')->on('category');
-            $table->foreign('characteristic_id')->references('id')->on('characteristic');
+//            $table->foreign('category_id')->references('id')->on('category');
+//            $table->foreign('characteristic_id')->references('id')->on('characteristic');
         });
     }
 
@@ -30,10 +30,10 @@ class CreateCategoryChTable extends Migration
      */
     public function down()
     {
-        App::$db->schema->table('category_ch', function ($table) {
-            $table->dropForeign(['category_id']);
-            $table->dropForeign(['characteristic_id']);
-        });
+//        App::$db->schema->table('category_ch', function ($table) {
+//            $table->dropForeign(['category_id']);
+//            $table->dropForeign(['characteristic_id']);
+//        });
         App::$db->schema->dropIfExists('category_ch');
     }
 }

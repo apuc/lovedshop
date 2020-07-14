@@ -15,10 +15,14 @@ class CreateCategoryTable extends Migration
     public function up()
     {
         App::$db->schema->create('category', function (Blueprint $table) {
-            $table->increments('id');
+            $table->string('id',255);
             $table->string('name', 255);
             $table->string('title',255);
-            $table->string('description',255);
+            $table->text('description');
+            $table->string('slug',255);
+            $table->integer('left_key');
+            $table->integer('right_key');
+            $table->integer('level');
             $table->tinyInteger('status');
             $table->timestamps();
         });

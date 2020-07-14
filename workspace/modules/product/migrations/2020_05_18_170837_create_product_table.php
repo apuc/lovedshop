@@ -18,7 +18,7 @@ class CreateProductTable extends Migration
             $table->increments('id');
             $table->string('name', 255);
             $table->string('title',255);
-            $table->string('description',255)->nullable();
+            $table->text('description')->nullable();
             $table->tinyInteger('status');
             $table->timestamps();
         });

@@ -27,6 +27,10 @@
     "version": "0.1",
     "status": "active"
   },
+  "categories": {
+    "version": "0.1",
+    "status": "active"
+  },
   "frontend": {
     "version": "0.1",
     "status": "inactive"

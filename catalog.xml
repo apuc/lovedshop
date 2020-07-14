@@ -1,0 +1,3092 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Categories>
+
+	<Category>
+		<Id>42f6dbca-1ca0-11ea-80d4-b499ba08875e</Id>
+		<Name>Офисная канцелярия</Name>
+		<Categories>
+			<Category>
+				<Id>e6801e12-1afe-11ea-80d4-b499ba08875e</Id>
+				<Name>Блокноты,записные книжки</Name>
+			</Category>
+			<Category>
+				<Id>47b71c47-1aff-11ea-80d4-b499ba08875e</Id>
+				<Name>Бумага для заметок</Name>
+			</Category>
+			<Category>
+				<Id>46484b4b-600b-11e9-80be-b499ba08875e</Id>
+				<Name>Ежедневники</Name>
+			</Category>
+			<Category>
+				<Id>f4185557-1b02-11ea-80d4-b499ba08875e</Id>
+				<Name>Настольные наборы</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>d1bd14ff-6d9e-11e9-80bf-b499ba08875e</Id>
+		<Name>Рисование</Name>
+		<Categories>
+			<Category>
+				<Id>3c20b08b-1afe-11ea-80d4-b499ba08875e</Id>
+				<Name>Альбомы и папки для рисования</Name>
+			</Category>
+			<Category>
+				<Id>f6130e29-5523-11e9-80bd-b499ba08875e</Id>
+				<Name>Скетчбуки,блокноты для зарисовок</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>e5e01ec3-43a0-11e8-8101-fc15b4f7d90c</Id>
+		<Name>Школьная канцелярия</Name>
+		<Categories>
+			<Category>
+				<Id>9c35f9d4-1b01-11ea-80d4-b499ba08875e</Id>
+				<Name>Подставки</Name>
+			</Category>
+			<Category>
+				<Id>13f0f7a8-1aff-11ea-80d4-b499ba08875e</Id>
+				<Name>Тетради</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>8dc9ad6a-7244-11e9-80bf-b499ba08875e</Id>
+		<Name>Аксессуары для волос</Name>
+		<Categories>
+			<Category>
+				<Id>b886cd12-72d3-11e9-80bf-b499ba08875e</Id>
+				<Name>Бигуди</Name>
+			</Category>
+			<Category>
+				<Id>b886cd16-72d3-11e9-80bf-b499ba08875e</Id>
+				<Name>Диадемы</Name>
+			</Category>
+			<Category>
+				<Id>b2042fab-72d3-11e9-80bf-b499ba08875e</Id>
+				<Name>Заколки, Резинки, Ободки</Name>
+			</Category>
+			<Category>
+				<Id>29a890f8-72d4-11e9-80bf-b499ba08875e</Id>
+				<Name>Невидимки, Шпильки, Пружинки</Name>
+			</Category>
+			<Category>
+				<Id>dfd7b943-f6ba-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Расчёски</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>9b9fa083-7d1f-11e3-80d4-2c59e5476a98</Id>
+		<Name>Бытовая химия</Name>
+		<Categories>
+			<Category>
+				<Id>500d1644-5f49-11e9-80be-b499ba08875e</Id>
+				<Name>Бумажная и ватная продукция</Name>
+				<Categories>
+					<Category>
+						<Id>8f0a6c06-3c5b-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Туалетная бумага</Name>
+					</Category>
+				</Categories>
+				<Category>
+					<Id>8f0a6c05-3c5b-11e7-80f2-fc15b4f7d908</Id>
+					<Name>Бумажная и влажная продукция</Name>
+				</Category>
+				<Categories>
+					<Category>
+						<Id>8f0a6c06-3c5b-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Туалетная бумага</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>778fd73c-3bb9-11e7-80f1-fc15b4f7d908</Id>
+				<Name>Клей</Name>
+			</Category>
+			<Category>
+				<Id>8a97424b-3b85-11e7-80f1-fc15b4f7d908</Id>
+				<Name>Освежители</Name>
+			</Category>
+
+			<Category>
+				<Id>dba05a98-3bc3-11e7-80f1-fc15b4f7d908</Id>
+				<Name>Средства для стирки и уход за бельем</Name>
+				<Categories>
+					<Category>
+						<Id>a0a93b40-6cd2-11e9-80bf-b499ba08875e</Id>
+						<Name>Антистатики</Name>
+					</Category>
+					<Category>
+						<Id>96500c26-3ebf-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Кондиционеры</Name>
+					</Category>
+					<Category>
+						<Id>f6cdcb27-3eca-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Пятновыводители, Отбеливатели</Name>
+					</Category>
+					<Category>
+						<Id>dba05a99-3bc3-11e7-80f1-fc15b4f7d908</Id>
+						<Name>Стиральные порошки</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>d5321ba0-705c-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Товары по уходу за одеждой и обувью</Name>
+				<Categories>
+					<Category>
+						<Id>d5321ba1-705c-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Товары для обуви</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>00c92700-3ee0-11e7-80f2-fc15b4f7d908</Id>
+				<Name>Чистящие средства</Name>
+				<Categories>
+					<Category>
+						<Id>870210e2-6c9f-11e9-80bf-b499ba08875e</Id>
+						<Name>Средства для бытовой техники</Name>
+					</Category>
+					<Category>
+						<Id>b8f24e7d-6c06-11e9-80bf-b499ba08875e</Id>
+						<Name>Средства для ванны и туалета</Name>
+					</Category>
+					<Category>
+						<Id>dfb0e2b2-6c06-11e9-80bf-b499ba08875e</Id>
+						<Name>Средства для ковров и мебели</Name>
+					</Category>
+					<Category>
+						<Id>d8c099e1-6c06-11e9-80bf-b499ba08875e</Id>
+						<Name>Средства для кухни</Name>
+					</Category>
+					<Category>
+						<Id>d3174be2-6009-11e9-80be-b499ba08875e</Id>
+						<Name>Средства для посуды</Name>
+					</Category>
+					<Category>
+						<Id>1cf969ac-6c07-11e9-80bf-b499ba08875e</Id>
+						<Name>Средства для стекол и зеркал</Name>
+					</Category>
+					<Category>
+						<Id>017d6b9d-6c07-11e9-80bf-b499ba08875e</Id>
+						<Name>Универсальные средства</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>920d02f5-f504-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Гаджеты и аксессуары</Name>
+		<Categories>
+			<Category>
+				<Id>4f5e7d8a-72d4-11e9-80bf-b499ba08875e</Id>
+				<Name>Зарядные устройства, AUX</Name>
+			</Category>
+			<Category>
+				<Id>727d01c0-72c1-11e8-8102-fc15b4f7d90c</Id>
+				<Name>Зеркала автомобильные</Name>
+			</Category>
+			<Category>
+				<Id>9db41f6b-7631-11e9-80bf-b499ba08875e</Id>
+				<Name>Коврики для мыши</Name>
+			</Category>
+			<Category>
+				<Id>d5d3b1a8-4c4e-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Наушники</Name>
+			</Category>
+			<Category>
+				<Id>350e22a6-6ee5-11e8-8102-fc15b4f7d90c</Id>
+				<Name>Подставки и держатели телефона</Name>
+			</Category>
+			<Category>
+				<Id>e6048656-eafa-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Чехлы для телефона и Apple Watch</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>2bbbcd2f-3eda-11e7-80f2-fc15b4f7d908</Id>
+		<Name>Дача и Сад</Name>
+		<Categories>
+			<Category>
+				<Id>920d02f7-f504-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Все для бани</Name>
+				<Categories>
+					<Category>
+						<Id>658d57e0-7631-11e9-80bf-b499ba08875e</Id>
+						<Name>Аромомасла</Name>
+					</Category>
+					<Category>
+						<Id>98af7c96-6ccc-11e9-80bf-b499ba08875e</Id>
+						<Name>Веники для бани</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>4f59937c-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Грунт и удобрения</Name>
+			</Category>
+			<Category>
+				<Id>6f93ae74-3e48-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Обувь</Name>
+			</Category>
+			<Category>
+				<Id>d7e3158d-0a49-11e8-80fc-fc15b4f7d90c</Id>
+				<Name>Семена</Name>
+				<Categories>
+					<Category>
+						<Id>d7e3158e-0a49-11e8-80fc-fc15b4f7d90c</Id>
+						<Name>Газонная трава</Name>
+					</Category>
+					<Category>
+						<Id>d7e3159e-0a49-11e8-80fc-fc15b4f7d90c</Id>
+						<Name>Зелень</Name>
+					</Category>
+					<Category>
+						<Id>a865d735-0fb7-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Овощи</Name>
+					</Category>
+					<Category>
+						<Id>a865d734-0fb7-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Трава для животных</Name>
+					</Category>
+					<Category>
+						<Id>3a530635-0a55-11e8-80fc-fc15b4f7d90c</Id>
+						<Name>Цветы</Name>
+					</Category>
+					<Category>
+						<Id>a865d729-0fb7-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Ягода</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>4f599382-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Товары для сада и дачи</Name>
+				<Categories>
+					<Category>
+						<Id>a606fd1c-735a-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Аксессуары для праздника</Name>
+					</Category>
+					<Category>
+						<Id>4f599381-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Аксессуары для сада и огорода</Name>
+					</Category>
+					<Category>
+						<Id>4f59937e-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Все для полива</Name>
+					</Category>
+					<Category>
+						<Id>4f599387-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Кашпо, горшки</Name>
+					</Category>
+					<Category>
+						<Id>4f599384-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Парники и теплицы</Name>
+					</Category>
+					<Category>
+						<Id>4f599383-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Ручной садовый инструмент</Name>
+					</Category>
+					<Category>
+						<Id>4f599385-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Садовый инвентарь</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>39a4e74c-00d3-11e8-80fb-fc15b4f7d908</Id>
+		<Name>Декоративная косметика</Name>
+		<Categories>
+			<Category>
+				<Id>39a4e74d-00d3-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Глаза</Name>
+				<Categories>
+					<Category>
+						<Id>bb171fdb-00e1-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Брови</Name>
+					</Category>
+					<Category>
+						<Id>39a4e751-00d3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Карандаш</Name>
+					</Category>
+					<Category>
+						<Id>39a4e750-00d3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Подводка</Name>
+					</Category>
+					<Category>
+						<Id>0f0ab9e1-00e2-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Тени</Name>
+					</Category>
+					<Category>
+						<Id>73ef1212-00e3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Тушь </Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>39a4e74e-00d3-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Губы</Name>
+				<Categories>
+					<Category>
+						<Id>bb171fcb-00e1-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Бальзам</Name>
+					</Category>
+					<Category>
+						<Id>39a4e752-00d3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Блеск</Name>
+					</Category>
+					<Category>
+						<Id>84a56170-f581-11e5-811e-2c59e5476a9b</Id>
+						<Name>Блеск для губ</Name>
+					</Category>
+					<Category>
+						<Id>39a4e751-00d3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Карандаш</Name>
+					</Category>
+					<Category>
+						<Id>80336497-152f-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Карандаш для губ</Name>
+					</Category>
+					<Category>
+						<Id>39a4e753-00d3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Помада</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>39a4e74f-00d3-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Лицо</Name>
+				<Categories>
+					<Category>
+						<Id>39a4e754-00d3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Консилер</Name>
+					</Category>
+					<Category>
+						<Id>73ef1210-00e3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Контуринг</Name>
+					</Category>
+					<Category>
+						<Id>73ef1211-00e3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Корректор</Name>
+					</Category>
+					<Category>
+						<Id>4f599386-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Основа под макияж</Name>
+					</Category>
+					<Category>
+						<Id>5260d571-00e2-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Праймер</Name>
+					</Category>
+					<Category>
+						<Id>5260d56f-00e2-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Пудра</Name>
+					</Category>
+					<Category>
+						<Id>5260d572-00e2-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Тональный крем</Name>
+					</Category>
+					<Category>
+						<Id>5260d570-00e2-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Хайлайтер</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>0dc43877-153f-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Ногти</Name>
+				<Categories>
+					<Category>
+						<Id>627b3649-4784-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Жидкость для снятия лака</Name>
+					</Category>
+					<Category>
+						<Id>0dc43878-153f-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Лак для ногтей</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>db82fcb6-666e-11e9-80be-b499ba08875e</Id>
+		<Name>Детское питание</Name>
+		<Categories>
+			<Category>
+				<Id>8628490f-6671-11e9-80be-b499ba08875e</Id>
+				<Name>Батончики</Name>
+			</Category>
+			<Category>
+				<Id>7a5aacf4-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Вода</Name>
+			</Category>
+			<Category>
+				<Id>526629fb-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Каши</Name>
+			</Category>
+			<Category>
+				<Id>5ff346ae-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Молочные продукты</Name>
+			</Category>
+			<Category>
+				<Id>8972f25e-6b19-11e9-80bf-b499ba08875e</Id>
+				<Name>Пастила</Name>
+			</Category>
+			<Category>
+				<Id>7a5aacf3-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Печенье</Name>
+			</Category>
+			<Category>
+				<Id>58e661ea-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Пюре мясные, рыбные</Name>
+			</Category>
+			<Category>
+				<Id>745b3441-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Пюре овощное</Name>
+			</Category>
+			<Category>
+				<Id>3ba7c83d-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Пюре фруктовые</Name>
+			</Category>
+			<Category>
+				<Id>6ccb2db4-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Соки, Нектары, Морсы</Name>
+			</Category>
+			<Category>
+				<Id>745b343e-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Сухие смеси и заменители молока</Name>
+			</Category>
+			<Category>
+				<Id>7a5aacf2-666f-11e9-80be-b499ba08875e</Id>
+				<Name>Чай</Name>
+			</Category>
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>24b332cf-f9c2-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Женская одежда</Name>
+		<Categories>
+			<Category>
+				<Id>92b95241-0a41-11e8-80fc-fc15b4f7d90c</Id>
+				<Name>Головные уборы</Name>
+			</Category>
+			<Category>
+				<Id>c5f7dccc-0afe-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Женские носки</Name>
+			</Category>
+			<Category>
+				<Id>9442810d-8254-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Нижнее белье</Name>
+				<Categories>
+					<Category>
+						<Id>9442810e-8254-11e7-80f7-fc15b4f7d90c</Id>
+						<Name>Трусы</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>6f93ae74-3e48-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Обувь</Name>
+				<Categories>
+					<Category>
+						<Id>6f93ae73-3e48-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Сапоги</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>ad5b43cb-0711-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Палантины</Name>
+			</Category>
+			<Category>
+				<Id>a0a8debf-2393-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Перчатки и варежки</Name>
+			</Category>
+			<Category>
+				<Id>df780197-0711-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Платки</Name>
+			</Category>
+			<Category>
+				<Id>c228b150-1cfd-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Чулки и колготки</Name>
+			</Category>
+			<Category>
+				<Id>df780198-0711-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Шарфы</Name>
+			</Category>
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>cec69aa5-7243-11e9-80bf-b499ba08875e</Id>
+		<Name>Зонты, дождевики</Name>
+		<Categories>
+			<Category>
+				<Id>e79eb4a9-37f9-11e8-8100-fc15b4f7d908</Id>
+				<Name>Дождевики</Name>
+				<Categories>
+					<Category>
+						<Id>0e78a7cf-7244-11e9-80bf-b499ba08875e</Id>
+						<Name>Взрослые</Name>
+					</Category>
+					<Category>
+						<Id>1ca58538-7244-11e9-80bf-b499ba08875e</Id>
+						<Name>Детские</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>4f599388-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Зонты</Name>
+				<Categories>
+					<Category>
+						<Id>8f135bc6-5f69-11e9-80be-b499ba08875e</Id>
+						<Name>Для детей</Name>
+					</Category>
+					<Category>
+						<Id>b9d0c370-5f69-11e9-80be-b499ba08875e</Id>
+						<Name>Для женщин</Name>
+					</Category>
+					<Category>
+						<Id>c0830c61-5f69-11e9-80be-b499ba08875e</Id>
+						<Name>Для мужчин</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>737ac9ad-fc41-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Игрушки</Name>
+		<Categories>
+			<Category>
+				<Id>6fa00b35-a840-11e8-8113-fc15b4f7d908</Id>
+				<Name>Бытовая техника</Name>
+			</Category>
+			<Category>
+				<Id>dfb876d3-a84a-11e8-8113-fc15b4f7d908</Id>
+				<Name>Игрушки Антистресс</Name>
+			</Category>
+			<Category>
+				<Id>985edca0-507b-11e9-80bd-b499ba08875e</Id>
+				<Name>Игрушки деревянные</Name>
+				<Categories>
+					<Category>
+						<Id>2bf0d1ac-59b8-11e9-80bd-b499ba08875e</Id>
+						<Name>Бизиборды</Name>
+					</Category>
+					<Category>
+						<Id>148a21a4-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Музыкальные инструменты</Name>
+					</Category>
+					<Category>
+						<Id>81968b5e-3c81-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Пазлы</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>895462a1-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Игрушки для малышей</Name>
+				<Categories>
+					<Category>
+						<Id>65f52fbf-600b-11e9-80be-b499ba08875e</Id>
+						<Name>Заводные игрушки</Name>
+					</Category>
+					<Category>
+						<Id>3507f0d5-507a-11e9-80bd-b499ba08875e</Id>
+						<Name>Игрушки для ванны</Name>
+					</Category>
+					<Category>
+						<Id>e9ed311f-a841-11e8-8113-fc15b4f7d908</Id>
+						<Name>Каталки</Name>
+					</Category>
+					<Category>
+						<Id>c8d0bbc1-55f1-11e9-80bd-b499ba08875e</Id>
+						<Name>Коврик детский</Name>
+					</Category>
+					<Category>
+						<Id>4dcd429a-5149-11e9-80bd-b499ba08875e</Id>
+						<Name>Кубики</Name>
+					</Category>
+					<Category>
+						<Id>62be17a7-51eb-11e9-80bd-b499ba08875e</Id>
+						<Name>Мобиль, подвеска</Name>
+					</Category>
+					<Category>
+						<Id>75c03ccb-a83a-11e8-8113-fc15b4f7d908</Id>
+						<Name>Неваляшки</Name>
+					</Category>
+					<Category>
+						<Id>81968b5e-3c81-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Пазлы</Name>
+					</Category>
+					<Category>
+						<Id>451b07aa-51ea-11e9-80bd-b499ba08875e</Id>
+						<Name>Пирамидка</Name>
+					</Category>
+					<Category>
+						<Id>dfb1d416-a83a-11e8-8113-fc15b4f7d908</Id>
+						<Name>Погремушка, прорезыватель</Name>
+					</Category>
+					<Category>
+						<Id>895462ae-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Сортеры</Name>
+					</Category>
+					<Category>
+						<Id>895462a0-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Юла</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>703c9bd5-84f4-11e8-8105-fc15b4f7d90c</Id>
+				<Name>Игрушки на радиоуправлении</Name>
+				<Categories>
+					<Category>
+						<Id>757ac458-a836-11e8-8113-fc15b4f7d908</Id>
+						<Name>Вертолёты р/у</Name>
+					</Category>
+					<Category>
+						<Id>733d1d46-a83b-11e8-8113-fc15b4f7d908</Id>
+						<Name>Квадрокоптеры</Name>
+					</Category>
+					<Category>
+						<Id>f1de3443-0fb8-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Машины</Name>
+					</Category>
+					<Category>
+						<Id>aac66fb0-a838-11e8-8113-fc15b4f7d908</Id>
+						<Name>Машины на р/у</Name>
+					</Category>
+					<Category>
+						<Id>74e09109-6675-11e9-80be-b499ba08875e</Id>
+						<Name>Танки на р/у</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>fc4a28fa-6594-11e9-80be-b499ba08875e</Id>
+				<Name>Игры на улице</Name>
+				<Categories>
+					<Category>
+						<Id>7fff711b-6b1a-11e9-80bf-b499ba08875e</Id>
+						<Name>Зимний ассортимент</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>8954627b-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Интерактивные игрушки</Name>
+				<Categories>
+					<Category>
+						<Id>89546297-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Железная дорога</Name>
+					</Category>
+					<Category>
+						<Id>8954627c-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Животные</Name>
+					</Category>
+					<Category>
+						<Id>148a21af-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Интерактивное оружие</Name>
+					</Category>
+					<Category>
+						<Id>89546285-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Телефоны, планшеты, компьютеры, микрофоны, плееры</Name>
+					</Category>
+					<Category>
+						<Id>c4c6141a-5c0e-11e9-80bd-b499ba08875e</Id>
+						<Name>Часы музыкальные, электронные</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>3c0d7e38-0fc3-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Куклы</Name>
+				<Categories>
+					<Category>
+						<Id>5e312f0e-a840-11e8-8113-fc15b4f7d908</Id>
+						<Name>Аксессуары для кукол</Name>
+					</Category>
+					<Category>
+						<Id>eb3dfcb2-38ac-11e8-8100-fc15b4f7d908</Id>
+						<Name>Дома и замки для кукол</Name>
+					</Category>
+					<Category>
+						<Id>a2ed9449-a842-11e8-8113-fc15b4f7d908</Id>
+						<Name>Коляски, кроватки для кукол</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>ba19e1a5-5536-11e9-80bd-b499ba08875e</Id>
+				<Name>Летний ассортимент</Name>
+				<Categories>
+					<Category>
+						<Id>76ceb18c-6b1b-11e9-80bf-b499ba08875e</Id>
+						<Name>Ветерки - вертушки</Name>
+					</Category>
+					<Category>
+						<Id>148a219a-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Водный пистолет</Name>
+					</Category>
+					<Category>
+						<Id>c7b54b3f-5536-11e9-80bd-b499ba08875e</Id>
+						<Name>Игрушки для песочницы</Name>
+					</Category>
+					<Category>
+						<Id>24afdba2-667b-11e9-80be-b499ba08875e</Id>
+						<Name>Качели</Name>
+					</Category>
+					<Category>
+						<Id>632c6509-64c3-11e9-80be-b499ba08875e</Id>
+						<Name>Мыльные пузыри</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>7ff4780d-51ef-11e9-80bd-b499ba08875e</Id>
+				<Name>Машины - каталки</Name>
+			</Category>
+
+			<Category>
+				<Id>c2274e22-fce3-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Мягкие игрушки</Name>
+				<Categories>
+					<Category>
+						<Id>698614c1-5765-11e9-80bd-b499ba08875e</Id>
+						<Name>Брелок-игрушка</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>737ac9af-fc41-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Обучение и развитие</Name>
+			</Category>
+			<Category>
+				<Id>3c3617c2-6d9f-11e9-80bf-b499ba08875e</Id>
+				<Name>Опыты и исследования</Name>
+			</Category>
+			<Category>
+				<Id>148a21a9-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Оружие игрушечное</Name>
+				<Categories>
+					<Category>
+						<Id>f2b2e8b8-a842-11e8-8113-fc15b4f7d908</Id>
+						<Name>Автоматы</Name>
+					</Category>
+					<Category>
+						<Id>d9c98aa4-59b8-11e9-80bd-b499ba08875e</Id>
+						<Name>Бластеры</Name>
+					</Category>
+					<Category>
+						<Id>148a21af-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Интерактивное оружие</Name>
+					</Category>
+					<Category>
+						<Id>1f3a6038-507a-11e9-80bd-b499ba08875e</Id>
+						<Name>Лук, арбалет</Name>
+					</Category>
+					<Category>
+						<Id>148a21aa-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Мечи, щиты. сабли</Name>
+					</Category>
+					<Category>
+						<Id>b71eb8a6-a84a-11e8-8113-fc15b4f7d908</Id>
+						<Name>Пистолеты</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>e68e909f-a4fc-11e8-8112-fc15b4f7d90c</Id>
+				<Name>Подарочная упаковка</Name>
+				<Categories>
+					<Category>
+						<Id>148a2189-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Коллекционные модели машин</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>6c92a072-a839-11e8-8113-fc15b4f7d908</Id>
+				<Name>Прочие игрушки</Name>
+			</Category>
+			<Category>
+				<Id>912a5a14-a839-11e8-8113-fc15b4f7d908</Id>
+				<Name>Пупсы</Name>
+			</Category>
+			<Category>
+				<Id>895462b3-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Развивающие игры</Name>
+				<Categories>
+					<Category>
+						<Id>895462b4-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Азбука, Счет</Name>
+					</Category>
+					<Category>
+						<Id>8310ab02-0fc2-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Конструирование и моделирование</Name>
+					</Category>
+					<Category>
+						<Id>4dcd429a-5149-11e9-80bd-b499ba08875e</Id>
+						<Name>Кубики</Name>
+					</Category>
+					<Category>
+						<Id>5211b31f-51ff-11e9-80bd-b499ba08875e</Id>
+						<Name>Мозайка</Name>
+					</Category>
+					<Category>
+						<Id>458cb7c6-0fc2-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Мольберты и доски для рисования</Name>
+					</Category>
+					<Category>
+						<Id>458cb7b1-0fc2-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Настольные,напольные и логические игры</Name>
+					</Category>
+					<Category>
+						<Id>75c03ccb-a83a-11e8-8113-fc15b4f7d908</Id>
+						<Name>Неваляшки</Name>
+					</Category>
+					<Category>
+						<Id>81968b5e-3c81-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Пазлы</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>737ac9ae-fc41-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Развлекательные игрушки</Name>
+			</Category>
+
+			<Category>
+				<Id>3c0d7e42-0fc3-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Роботы и трансформеры</Name>
+			</Category>
+
+			<Category>
+				<Id>8310ab2f-0fc2-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Спортивные товары</Name>
+			</Category>
+
+			<Category>
+				<Id>148a2194-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Сюжетные игры</Name>
+				<Categories>
+					<Category>
+						<Id>f1a8d574-600a-11e9-80be-b499ba08875e</Id>
+						<Name>Игра рыбалка</Name>
+					</Category>
+					<Category>
+						<Id>f8b0f4ba-600a-11e9-80be-b499ba08875e</Id>
+						<Name>Игры ролевые</Name>
+					</Category>
+					<Category>
+						<Id>148a21a4-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Музыкальные инструменты</Name>
+					</Category>
+					<Category>
+						<Id>148a2195-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Наборы для кухни, посуда</Name>
+					</Category>
+					<Category>
+						<Id>148a219f-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Наборы Доктора, Ветеринара</Name>
+					</Category>
+					<Category>
+						<Id>4f599390-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Наборы Стилиста, модница</Name>
+					</Category>
+					<Category>
+						<Id>4f599389-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Наборы Строителя</Name>
+					</Category>
+					<Category>
+						<Id>0ad568bc-55f5-11e9-80bd-b499ba08875e</Id>
+						<Name>Наборы супермаркет</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>f1de3442-0fb8-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Транспорт игрушечный</Name>
+				<Categories>
+					<Category>
+						<Id>f1de3448-0fb8-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Вертолёты, самолёты</Name>
+					</Category>
+					<Category>
+						<Id>89546297-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Железная дорога</Name>
+					</Category>
+					<Category>
+						<Id>148a2189-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Коллекционные модели машин</Name>
+					</Category>
+					<Category>
+						<Id>f1de3443-0fb8-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Машины</Name>
+					</Category>
+					<Category>
+						<Id>aac66fb0-a838-11e8-8113-fc15b4f7d908</Id>
+						<Name>Машины на р/у</Name>
+					</Category>
+					<Category>
+						<Id>8a7b37f9-a83c-11e8-8113-fc15b4f7d908</Id>
+						<Name>Танки</Name>
+					</Category>
+					<Category>
+						<Id>148a218e-0fbf-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Треки, парковки, гаражи</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>ded435a4-a839-11e8-8113-fc15b4f7d908</Id>
+				<Name>Фигурки животных</Name>
+				<Categories>
+					<Category>
+						<Id>a1e4cf29-5f59-11e9-80be-b499ba08875e</Id>
+						<Name>Дикие животные</Name>
+					</Category>
+					<Category>
+						<Id>91e8d141-5c3d-11e9-80be-b499ba08875e</Id>
+						<Name>Динозавры</Name>
+					</Category>
+					<Category>
+						<Id>9af224eb-5f59-11e9-80be-b499ba08875e</Id>
+						<Name>Домашние животные</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>3c0d7e4b-0fc3-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Фигурки мультгероев</Name>
+				<Categories>
+					<Category>
+						<Id>687a892a-5c47-11e9-80be-b499ba08875e</Id>
+						<Name>Герои в масках</Name>
+					</Category>
+					<Category>
+						<Id>132e2310-5c4a-11e9-80be-b499ba08875e</Id>
+						<Name>Мимимишки</Name>
+					</Category>
+					<Category>
+						<Id>0671bae6-5c47-11e9-80be-b499ba08875e</Id>
+						<Name>Петы</Name>
+					</Category>
+					<Category>
+						<Id>116a646c-5c47-11e9-80be-b499ba08875e</Id>
+						<Name>Пони</Name>
+					</Category>
+					<Category>
+						<Id>55901480-5c47-11e9-80be-b499ba08875e</Id>
+						<Name>Свинка Пеппа </Name>
+					</Category>
+					<Category>
+						<Id>17af6160-5c48-11e9-80be-b499ba08875e</Id>
+						<Name>Супер крылья</Name>
+					</Category>
+					<Category>
+						<Id>6bed8137-600b-11e9-80be-b499ba08875e</Id>
+						<Name>Черепашки-ниндзя</Name>
+					</Category>
+					<Category>
+						<Id>912b64d1-5c47-11e9-80be-b499ba08875e</Id>
+						<Name>Шопкинсы</Name>
+					</Category>
+					<Category>
+						<Id>31e6b803-5c47-11e9-80be-b499ba08875e</Id>
+						<Name>Щенячий Патруль</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>886ba134-a83d-11e8-8113-fc15b4f7d908</Id>
+				<Name>Фигурки солдатиков, воинов</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>778694b1-387a-11e8-8100-fc15b4f7d908</Id>
+		<Name>Канцелярские товары</Name>
+		<Categories>
+			<Category>
+				<Id>a5f5ddcd-1cba-11ea-80d4-b499ba08875e</Id>
+				<Name>Бумага</Name>
+				<Categories>
+					<Category>
+						<Id>c74adf46-1b19-11ea-80d4-b499ba08875e</Id>
+						<Name>Бумага для офисной техники,копировальная</Name>
+					</Category>
+					<Category>
+						<Id>e098eff0-1b19-11ea-80d4-b499ba08875e</Id>
+						<Name>Бумага крепированная,гофрированная</Name>
+					</Category>
+					<Category>
+						<Id>27be39f1-5791-11e9-80bd-b499ba08875e</Id>
+						<Name>Бумага цветная</Name>
+					</Category>
+					<Category>
+						<Id>874b2535-578c-11e9-80bd-b499ba08875e</Id>
+						<Name>Ватман</Name>
+					</Category>
+					<Category>
+						<Id>34e731bf-5791-11e9-80bd-b499ba08875e</Id>
+						<Name>Картон</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>78b966aa-43a2-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Краски</Name>
+			</Category>
+
+			<Category>
+				<Id>1245805f-578e-11e9-80bd-b499ba08875e</Id>
+				<Name>Лепка</Name>
+			</Category>
+
+			<Category>
+				<Id>04a0a054-5465-11e9-80bd-b499ba08875e</Id>
+				<Name>Обложки для документов</Name>
+			</Category>
+
+			<Category>
+				<Id>42f6dbca-1ca0-11ea-80d4-b499ba08875e</Id>
+				<Name>Офисная канцелярия</Name>
+				<Categories>
+					<Category>
+						<Id>dc61fcea-579b-11e9-80bd-b499ba08875e</Id>
+						<Name>Бейджи,брелки для ключей</Name>
+					</Category>
+					<Category>
+						<Id>e6801e12-1afe-11ea-80d4-b499ba08875e</Id>
+						<Name>Блокноты,записные книжки</Name>
+					</Category>
+					<Category>
+						<Id>47b71c47-1aff-11ea-80d4-b499ba08875e</Id>
+						<Name>Бумага для заметок</Name>
+					</Category>
+					<Category>
+						<Id>bd6c9431-5785-11e9-80bd-b499ba08875e</Id>
+						<Name>Дыроколы, шило</Name>
+					</Category>
+					<Category>
+						<Id>46484b4b-600b-11e9-80be-b499ba08875e</Id>
+						<Name>Ежедневники</Name>
+					</Category>
+					<Category>
+						<Id>566eddf1-14be-11ea-80d4-b499ba08875e</Id>
+						<Name>Зажимы,скрепки,скрепочницы</Name>
+					</Category>
+					<Category>
+						<Id>f27ec1ff-1b11-11ea-80d4-b499ba08875e</Id>
+						<Name>Калькуляторы</Name>
+					</Category>
+					<Category>
+						<Id>1bf7e8ca-1b12-11ea-80d4-b499ba08875e</Id>
+						<Name>Клей канцелярский</Name>
+					</Category>
+					<Category>
+						<Id>dc80d618-38b1-11e8-8100-fc15b4f7d908</Id>
+						<Name>Клейкие ленты</Name>
+					</Category>
+					<Category>
+						<Id>20d9487a-5788-11e9-80bd-b499ba08875e</Id>
+						<Name>Корректирующие средства</Name>
+					</Category>
+					<Category>
+						<Id>ccfbfffd-1b00-11ea-80d4-b499ba08875e</Id>
+						<Name>Лотки для бумаг</Name>
+					</Category>
+					<Category>
+						<Id>70510510-1b15-11ea-80d4-b499ba08875e</Id>
+						<Name>Лупы</Name>
+					</Category>
+					<Category>
+						<Id>7a5d3fe9-1b14-11ea-80d4-b499ba08875e</Id>
+						<Name>Магниты</Name>
+					</Category>
+					<Category>
+						<Id>76e30bdb-1b0b-11ea-80d4-b499ba08875e</Id>
+						<Name>Маркеры перманентные,специальные</Name>
+					</Category>
+					<Category>
+						<Id>f4185557-1b02-11ea-80d4-b499ba08875e</Id>
+						<Name>Настольные наборы</Name>
+					</Category>
+					<Category>
+						<Id>cfd0e8f5-1b14-11ea-80d4-b499ba08875e</Id>
+						<Name>Ножи и ножницы</Name>
+					</Category>
+					<Category>
+						<Id>ae798058-5784-11e9-80bd-b499ba08875e</Id>
+						<Name>Папки и файлы</Name>
+					</Category>
+					<Category>
+						<Id>e6fb4878-579b-11e9-80bd-b499ba08875e</Id>
+						<Name>Резинки для банкнот</Name>
+					</Category>
+					<Category>
+						<Id>c8869fdb-5785-11e9-80bd-b499ba08875e</Id>
+						<Name>Степлеры, антистеплеры, скобы</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>a7a59521-1ca2-11ea-80d4-b499ba08875e</Id>
+				<Name>Письменные принадлежности</Name>
+				<Categories>
+					<Category>
+						<Id>b25bf5ef-43a1-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Карандаши цветные</Name>
+					</Category>
+					<Category>
+						<Id>a8784efe-4308-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Карандаши чернографитные</Name>
+					</Category>
+					<Category>
+						<Id>76e30bdb-1b0b-11ea-80d4-b499ba08875e</Id>
+						<Name>Маркеры перманентные,специальные</Name>
+					</Category>
+					<Category>
+						<Id>a8784f16-4308-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Маркеры текстовые</Name>
+					</Category>
+					<Category>
+						<Id>329927f1-1b03-11ea-80d4-b499ba08875e</Id>
+						<Name>Ручки</Name>
+					</Category>
+					<Category>
+						<Id>688bb6d1-1b19-11ea-80d4-b499ba08875e</Id>
+						<Name>Фломастеры</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>d1bd14ff-6d9e-11e9-80bf-b499ba08875e</Id>
+				<Name>Рисование</Name>
+				<Categories>
+					<Category>
+						<Id>3c20b08b-1afe-11ea-80d4-b499ba08875e</Id>
+						<Name>Альбомы и папки для рисования</Name>
+					</Category>
+					<Category>
+						<Id>874b2535-578c-11e9-80bd-b499ba08875e</Id>
+						<Name>Ватман</Name>
+					</Category>
+					<Category>
+						<Id>bebdc021-5788-11e9-80bd-b499ba08875e</Id>
+						<Name>Гуашь</Name>
+					</Category>
+					<Category>
+						<Id>c699444c-1b16-11ea-80d4-b499ba08875e</Id>
+						<Name>Доски маркерно-меловые</Name>
+					</Category>
+					<Category>
+						<Id>b25bf5ef-43a1-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Карандаши цветные</Name>
+					</Category>
+					<Category>
+						<Id>a55a01ce-43a6-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Карандаши,мелки восковые/масляные</Name>
+					</Category>
+					<Category>
+						<Id>b9d0c36b-5f69-11e9-80be-b499ba08875e</Id>
+						<Name>Кисти</Name>
+					</Category>
+					<Category>
+						<Id>1e48c61c-1b16-11ea-80d4-b499ba08875e</Id>
+						<Name>Краски</Name>
+					</Category>
+					<Category>
+						<Id>ae033132-1b17-11ea-80d4-b499ba08875e</Id>
+						<Name>Мел</Name>
+					</Category>
+					<Category>
+						<Id>d458d7a9-1b17-11ea-80d4-b499ba08875e</Id>
+						<Name>Мольберты и холсты</Name>
+					</Category>
+					<Category>
+						<Id>c4557b6b-579a-11e9-80bd-b499ba08875e</Id>
+						<Name>Палитры</Name>
+					</Category>
+					<Category>
+						<Id>f6130e29-5523-11e9-80bd-b499ba08875e</Id>
+						<Name>Скетчбуки,блокноты для зарисовок</Name>
+					</Category>
+					<Category>
+						<Id>92863e67-578b-11e9-80bd-b499ba08875e</Id>
+						<Name>Стаканы-непроливайки</Name>
+					</Category>
+					<Category>
+						<Id>699d1ffa-1b17-11ea-80d4-b499ba08875e</Id>
+						<Name>Уголь.Пастель художественная</Name>
+					</Category>
+					<Category>
+						<Id>688bb6d1-1b19-11ea-80d4-b499ba08875e</Id>
+						<Name>Фломастеры</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>a8784f1b-4308-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Ручки</Name>
+			</Category>
+
+			<Category>
+				<Id>50cf7185-1ca4-11ea-80d4-b499ba08875e</Id>
+				<Name>Рюкзаки и сумки</Name>
+			</Category>
+
+			<Category>
+				<Id>31699137-38a1-11e8-8100-fc15b4f7d908</Id>
+				<Name>Творчество и хобби</Name>
+				<Categories>
+					<Category>
+						<Id>e20556ee-1b18-11ea-80d4-b499ba08875e</Id>
+						<Name>Блестки декоративные</Name>
+					</Category>
+					<Category>
+						<Id>988e9d65-1b19-11ea-80d4-b499ba08875e</Id>
+						<Name>Бумага из мягкого пластика,фетра,блестящая</Name>
+					</Category>
+					<Category>
+						<Id>78b966a9-43a2-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Гель художественный</Name>
+					</Category>
+					<Category>
+						<Id>87be385b-6cc7-11e9-80bf-b499ba08875e</Id>
+						<Name>Декоративные элементы</Name>
+					</Category>
+					<Category>
+						<Id>34e731bf-5791-11e9-80bd-b499ba08875e</Id>
+						<Name>Картон</Name>
+					</Category>
+					<Category>
+						<Id>1bf7e8ca-1b12-11ea-80d4-b499ba08875e</Id>
+						<Name>Клей канцелярский</Name>
+					</Category>
+					<Category>
+						<Id>c439cc8e-14c1-11ea-80d4-b499ba08875e</Id>
+						<Name>Клейкая лента декоративная</Name>
+					</Category>
+					<Category>
+						<Id>e8f540e1-43a6-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Наклейки,трафареты</Name>
+					</Category>
+					<Category>
+						<Id>dfd7b944-f6ba-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Проволока шенил (синельная проволока)</Name>
+					</Category>
+					<Category>
+						<Id>6f3bc73b-4c6e-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Шнуры,ленты декоративные</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>7e6a0bbe-1114-11ea-80d4-b499ba08875e</Id>
+				<Name>Товары для делопроизводства</Name>
+			</Category>
+
+			<Category>
+				<Id>01285bd2-1ca8-11ea-80d4-b499ba08875e</Id>
+				<Name>Товары для лепки и скульптурных работ</Name>
+				<Categories>
+					<Category>
+						<Id>a271897c-1b16-11ea-80d4-b499ba08875e</Id>
+						<Name>Аксессуары и инструменты для лепки</Name>
+					</Category>
+					<Category>
+						<Id>c47f3496-1b18-11ea-80d4-b499ba08875e</Id>
+						<Name>Глина,гипс,пластилин скульптурный</Name>
+					</Category>
+					<Category>
+						<Id>704e72e3-578b-11e9-80bd-b499ba08875e</Id>
+						<Name>Пластилин школьный</Name>
+					</Category>
+					<Category>
+						<Id>6031ab0e-578b-11e9-80bd-b499ba08875e</Id>
+						<Name>Тесто и масса для лепки</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>003f2129-1ca3-11ea-80d4-b499ba08875e</Id>
+				<Name>Товары для черчения</Name>
+				<Categories>
+					<Category>
+						<Id>140479ef-1b1a-11ea-80d4-b499ba08875e</Id>
+						<Name>Бумага масштабно-координатная,калька</Name>
+					</Category>
+					<Category>
+						<Id>0363b997-1b0b-11ea-80d4-b499ba08875e</Id>
+						<Name>Ластики</Name>
+					</Category>
+					<Category>
+						<Id>56b848f6-43a0-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Линейки, треугольники, транспортиры</Name>
+					</Category>
+					<Category>
+						<Id>7b52ca45-1b1a-11ea-80d4-b499ba08875e</Id>
+						<Name>Папки для черчения</Name>
+					</Category>
+					<Category>
+						<Id>9f1ddf02-1b0e-11ea-80d4-b499ba08875e</Id>
+						<Name>Точилки</Name>
+					</Category>
+					<Category>
+						<Id>41efca02-1b10-11ea-80d4-b499ba08875e</Id>
+						<Name>Тубусы для чертежей</Name>
+					</Category>
+					<Category>
+						<Id>56b848e9-43a0-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Циркули, готовальни</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>e5e01ec3-43a0-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Школьная канцелярия</Name>
+				<Categories>
+					<Category>
+						<Id>57763a51-1b11-11ea-80d4-b499ba08875e</Id>
+						<Name>Дневники</Name>
+					</Category>
+					<Category>
+						<Id>4327ee1b-5785-11e9-80bd-b499ba08875e</Id>
+						<Name>Закладки для книг</Name>
+					</Category>
+					<Category>
+						<Id>754f48a4-1b0f-11ea-80d4-b499ba08875e</Id>
+						<Name>Карты учебные</Name>
+					</Category>
+					<Category>
+						<Id>0363b997-1b0b-11ea-80d4-b499ba08875e</Id>
+						<Name>Ластики</Name>
+					</Category>
+					<Category>
+						<Id>e5e01ec4-43a0-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Ножницы детские</Name>
+					</Category>
+					<Category>
+						<Id>c61cf1b0-1b0f-11ea-80d4-b499ba08875e</Id>
+						<Name>Обложки для тетрадей и учебников</Name>
+					</Category>
+					<Category>
+						<Id>89094b39-1b10-11ea-80d4-b499ba08875e</Id>
+						<Name>Пеналы</Name>
+					</Category>
+					<Category>
+						<Id>9c35f9d4-1b01-11ea-80d4-b499ba08875e</Id>
+						<Name>Подставки</Name>
+					</Category>
+					<Category>
+						<Id>573541d0-5785-11e9-80bd-b499ba08875e</Id>
+						<Name>Покрытия на стол</Name>
+					</Category>
+					<Category>
+						<Id>0e75efb2-1b10-11ea-80d4-b499ba08875e</Id>
+						<Name>Светоотражатели</Name>
+					</Category>
+					<Category>
+						<Id>e5e01ed1-43a0-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Счетные материалы</Name>
+					</Category>
+					<Category>
+						<Id>13f0f7a8-1aff-11ea-80d4-b499ba08875e</Id>
+						<Name>Тетради</Name>
+					</Category>
+					<Category>
+						<Id>2d7c524f-1b11-11ea-80d4-b499ba08875e</Id>
+						<Name>Фартуки</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>dfd7b942-f6ba-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Красота и здоровье</Name>
+		<Categories>
+			<Category>
+				<Id>86ee911b-5464-11e9-80bd-b499ba08875e</Id>
+				<Name>Аксессуары для макияжа</Name>
+				<Categories>
+					<Category>
+						<Id>893dfd62-f9dc-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Инструменты</Name>
+					</Category>
+					<Category>
+						<Id>b9d0c36b-5f69-11e9-80be-b499ba08875e</Id>
+						<Name>Кисти</Name>
+					</Category>
+					<Category>
+						<Id>d3809181-5f69-11e9-80be-b499ba08875e</Id>
+						<Name>Спонжи</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>3400b308-f5c6-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Всё для ванны и душа</Name>
+				<Categories>
+					<Category>
+						<Id>b77b7ff3-308e-11e7-80ee-fc15b4f7d908</Id>
+						<Name>Гели для душа</Name>
+					</Category>
+					<Category>
+						<Id>3400b309-f5c6-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Губки, банные мочалки</Name>
+					</Category>
+					<Category>
+						<Id>37a73488-3c7c-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Мыло жидкое, кусковое</Name>
+					</Category>
+					<Category>
+						<Id>db77f14c-599e-11e8-8102-fc15b4f7d90c</Id>
+						<Name>Соль для ванн</Name>
+					</Category>
+					<Category>
+						<Id>4f59937d-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Уход за полостью рта</Name>
+					</Category>
+					<Category>
+						<Id>737b66d0-718a-11e9-80bf-b499ba08875e</Id>
+						<Name>Шапочки для душа</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>893dfd61-f9dc-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Все для маникюра и педикюра</Name>
+				<Categories>
+					<Category>
+						<Id>893dfd62-f9dc-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Инструменты</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>7ecceb1f-34b1-11e8-8100-fc15b4f7d908</Id>
+				<Name>Гигиена</Name>
+				<Categories>
+					<Category>
+						<Id>7ecceb20-34b1-11e8-8100-fc15b4f7d908</Id>
+						<Name>Ватно-бумажная продукция</Name>
+					</Category>
+					<Category>
+						<Id>2fcec162-7633-11e9-80bf-b499ba08875e</Id>
+						<Name>Влажная продукция</Name>
+					</Category>
+					<Category>
+						<Id>7ecceb3a-34b1-11e8-8100-fc15b4f7d908</Id>
+						<Name>Личная гигиена</Name>
+					</Category>
+					<Category>
+						<Id>8f0a6c06-3c5b-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Туалетная бумага</Name>
+					</Category>
+					<Category>
+						<Id>4f59937d-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Уход за полостью рта</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>39a4e74d-00d3-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Глаза</Name>
+				<Categories>
+					<Category>
+						<Id>73ef1212-00e3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Тушь </Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>39a4e74e-00d3-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Губы</Name>
+				<Categories>
+					<Category>
+						<Id>84a56170-f581-11e5-811e-2c59e5476a9b</Id>
+						<Name>Блеск для губ</Name>
+					</Category>
+					<Category>
+						<Id>39a4e753-00d3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Помада</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>9b9fa086-7d1f-11e3-80d4-2c59e5476a98</Id>
+				<Name>Дезодоранты</Name>
+			</Category>
+
+			<Category>
+				<Id>29535d0f-5782-11e9-80bd-b499ba08875e</Id>
+				<Name>Емкости для ухода</Name>
+			</Category>
+
+			<Category>
+				<Id>7c8d1504-a4fc-11e8-8112-fc15b4f7d90c</Id>
+				<Name>Косметички и органайзеры</Name>
+				<Categories>
+					<Category>
+						<Id>a9b814dc-a4fc-11e8-8112-fc15b4f7d90c</Id>
+						<Name>Косметички</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>39a4e74f-00d3-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Лицо</Name>
+				<Categories>
+					<Category>
+						<Id>73ef1210-00e3-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Контуринг</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>b88039ab-6d9f-11e9-80bf-b499ba08875e</Id>
+				<Name>Одеколоны</Name>
+			</Category>
+
+			<Category>
+				<Id>7f401545-f9d1-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Товары для бритья и депиляции</Name>
+				<Categories>
+					<Category>
+						<Id>7f401546-f9d1-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Бритвенные принадлежности</Name>
+					</Category>
+					<Category>
+						<Id>815e4860-6c04-11e9-80bf-b499ba08875e</Id>
+						<Name>Депиляция, эпиляция</Name>
+					</Category>
+					<Category>
+						<Id>0f05bfd0-7350-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Пена, гели для бритья</Name>
+					</Category>
+					<Category>
+						<Id>0d064181-76b9-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Средства после бритья</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>d5321ba0-705c-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Товары по уходу за одеждой и обувью</Name>
+				<Categories>
+					<Category>
+						<Id>d5321ba1-705c-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Товары для обуви</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>04ed3da8-3eb8-11e7-80f2-fc15b4f7d908</Id>
+				<Name>Уход за волосами и укладка</Name>
+				<Categories>
+					<Category>
+						<Id>422488fc-3ed6-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Все для укладки</Name>
+					</Category>
+					<Category>
+						<Id>24b332d2-f9c2-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Маски</Name>
+					</Category>
+					<Category>
+						<Id>0bd4d50f-7283-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Окрашивание волос, бровей</Name>
+					</Category>
+					<Category>
+						<Id>727d01c1-72c1-11e8-8102-fc15b4f7d90c</Id>
+						<Name>Средства для стайлинга</Name>
+					</Category>
+					<Category>
+						<Id>04ed3da9-3eb8-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Шампуни, Бальзамы, Маски</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>9770ccc6-3c6f-11e7-80f2-fc15b4f7d908</Id>
+				<Name>Уход за кожей лица и тела</Name>
+				<Categories>
+					<Category>
+						<Id>422488fc-3ed6-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Все для укладки</Name>
+					</Category>
+					<Category>
+						<Id>b77b7ff3-308e-11e7-80ee-fc15b4f7d908</Id>
+						<Name>Гели для душа</Name>
+					</Category>
+					<Category>
+						<Id>c4e7b70f-0d73-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Гели и пена для ванн</Name>
+					</Category>
+					<Category>
+						<Id>24b332d3-f9c2-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Гигиенические помады</Name>
+					</Category>
+					<Category>
+						<Id>24b332d0-f9c2-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Крема</Name>
+					</Category>
+					<Category>
+						<Id>9770ccc7-3c6f-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Крема для рук и ног</Name>
+					</Category>
+					<Category>
+						<Id>42d31358-0d7e-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Крема и масла для тела</Name>
+					</Category>
+					<Category>
+						<Id>24b332d1-f9c2-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Лосьоны</Name>
+					</Category>
+					<Category>
+						<Id>24b332d2-f9c2-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Маски</Name>
+					</Category>
+					<Category>
+						<Id>37a73488-3c7c-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Мыло жидкое, кусковое</Name>
+					</Category>
+					<Category>
+						<Id>35f40070-2929-11e8-80fe-fc15b4f7d90c</Id>
+						<Name>Салфетки бумажные</Name>
+					</Category>
+					<Category>
+						<Id>04ed3da9-3eb8-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Шампуни, Бальзамы, Маски</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>ad3e4f12-819a-11e7-80f7-fc15b4f7d90c</Id>
+		<Name>Медицинские товары</Name>
+		<Categories>
+			<Category>
+				<Id>09aae711-0717-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Антисептическое и дезинфецирующие средства</Name>
+			</Category>
+			<Category>
+				<Id>66d2e60f-002f-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Гематоген</Name>
+			</Category>
+			<Category>
+				<Id>d9754c77-8100-11e9-80c1-b499ba08875e</Id>
+				<Name>Лейкопластыри, пластыри</Name>
+			</Category>
+			<Category>
+				<Id>7dcddbce-073e-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Лечение и профилактика</Name>
+			</Category>
+			<Category>
+				<Id>7dcddbdf-073e-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Перевязочные материалы</Name>
+			</Category>
+			<Category>
+				<Id>b7fea231-073e-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Расходные одноразовые материалы</Name>
+			</Category>
+			<Category>
+				<Id>d2e45701-073e-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Термометры</Name>
+			</Category>
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>c2274e33-fce3-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Мужская одежда</Name>
+		<Categories>
+			<Category>
+				<Id>9c05d8b0-188c-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Кепки</Name>
+			</Category>
+			<Category>
+				<Id>c2274e34-fce3-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Мужские носки</Name>
+			</Category>
+			<Category>
+				<Id>9442810d-8254-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Нижнее белье</Name>
+			</Category>
+			<Categories>
+				<Category>
+					<Id>9442810e-8254-11e7-80f7-fc15b4f7d90c</Id>
+					<Name>Трусы</Name>
+				</Category>
+			</Categories>
+			<Category>
+				<Id>6e668daf-2394-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Перчатки</Name>
+			</Category>
+			<Category>
+				<Id>a3063179-0c05-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Шапки</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>22cd63c7-a9e6-11e6-8127-2c59e5476a9b</Id>
+		<Name>Новый год</Name>
+		<Categories>
+			<Category>
+				<Id>da7170c7-d8f6-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Гирлянды</Name>
+			</Category>
+			<Category>
+				<Id>c5a70223-d331-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Елки искусственные</Name>
+			</Category>
+			<Category>
+				<Id>caef4414-d8f8-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Елочные украшения</Name>
+			</Category>
+			<Category>
+				<Id>00c665ad-d8fa-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Карнавальные костюмы</Name>
+			</Category>
+			<Category>
+				<Id>d80d1f5f-6b05-11e9-80bf-b499ba08875e</Id>
+				<Name>Мишура</Name>
+			</Category>
+			<Category>
+				<Id>d38ab7c3-d8f6-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Новогодние аксессуары</Name>
+			</Category>
+			<Category>
+				<Id>31ca7c35-d8fb-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Украшения для дома</Name>
+			</Category>
+			<Category>
+				<Id>911d3fc4-d8fb-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Хлопушки</Name>
+			</Category>
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>ee658338-54d0-11e8-8102-fc15b4f7d90c</Id>
+		<Name>Освещение </Name>
+		<Categories>
+			<Category>
+				<Id>ee658339-54d0-11e8-8102-fc15b4f7d90c</Id>
+				<Name>Интерьерный свет  </Name>
+			</Category>
+			<Categories>
+				<Category>
+					<Id>ee65833a-54d0-11e8-8102-fc15b4f7d90c</Id>
+					<Name>Ночники </Name>
+				</Category>
+			</Categories>
+			<Category>
+				<Id>ea08d3fa-718a-11e9-80bf-b499ba08875e</Id>
+				<Name>Лампы настольные</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>f8449eb8-80fe-11e8-8103-fc15b4f7d90c</Id>
+		<Name>Парфюмерия</Name>
+	</Category>
+
+
+	<Category>
+		<Id>de8c0ac9-6023-11e9-80be-b499ba08875e</Id>
+		<Name>Пасхальный ассортимент</Name>
+		<Categories>
+			<Category>
+				<Id>cdac1ce0-6024-11e9-80be-b499ba08875e</Id>
+				<Name>Полотенца пасхальные</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>978429b8-718a-11e9-80bf-b499ba08875e</Id>
+		<Name>Пикник</Name>
+		<Categories>
+			<Category>
+				<Id>727da3c8-6d9f-11e9-80bf-b499ba08875e</Id>
+				<Name>Мангалы и коптильни</Name>
+			</Category>
+			<Category>
+				<Id>55e447a3-6cd2-11e9-80bf-b499ba08875e</Id>
+				<Name>Одноразовая посуда</Name>
+			</Category>
+			<Category>
+				<Id>075a83de-718b-11e9-80bf-b499ba08875e</Id>
+				<Name>Уголь, щепа и средства для розжига</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>a209e266-80e2-11e7-80f7-fc15b4f7d90c</Id>
+		<Name>Подарки</Name>
+		<Categories>
+			<Category>
+				<Id>a606fd1b-735a-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Все для праздника</Name>
+				<Categories>
+					<Category>
+						<Id>a606fd1c-735a-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Аксессуары для праздника</Name>
+					</Category>
+					<Category>
+						<Id>0cf37775-8185-11e7-80f7-fc15b4f7d90c</Id>
+						<Name>Растяжки и открытки</Name>
+					</Category>
+					<Category>
+						<Id>bbb532c5-7390-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Свечи</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>e68e909f-a4fc-11e8-8112-fc15b4f7d90c</Id>
+				<Name>Подарочная упаковка</Name>
+			</Category>
+
+			<Category>
+				<Id>7f04dbd3-d8fa-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Сувениры</Name>
+				<Categories>
+					<Category>
+						<Id>2b418431-600c-11e9-80be-b499ba08875e</Id>
+						<Name>Брелоки, подвески</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+
+			<Category>
+				<Id>3922c2c3-a4fd-11e8-8112-fc15b4f7d90c</Id>
+				<Name>Фоторамки и фотоальбомы</Name>
+				<Categories>
+					<Category>
+						<Id>3f29ddd6-a4fd-11e8-8112-fc15b4f7d90c</Id>
+						<Name>Фоторамки</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>9cf19c98-f9e1-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Функциональные сувениры</Name>
+				<Categories>
+					<Category>
+						<Id>2e96ddc8-a4fc-11e8-8112-fc15b4f7d90c</Id>
+						<Name>Копилки</Name>
+					</Category>
+					<Category>
+						<Id>9cf19c99-f9e1-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Пепельницы, Фляжки</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>ecb1bcd3-0677-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Часы и будильники</Name>
+				<Categories>
+					<Category>
+						<Id>920d02f6-f504-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Часы настольные и будильники</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>a4d53ef0-7073-11e9-80bf-b499ba08875e</Id>
+				<Name>Шкатулки для украшений</Name>
+			</Category>
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>dd609d16-f532-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Подарочные наборы</Name>
+		<Categories>
+			<Category>
+				<Id>dd609d18-f532-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Детские</Name>
+			</Category>
+			<Category>
+				<Id>461bfe1a-f130-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Женские</Name>
+			</Category>
+			<Category>
+				<Id>dd609d17-f532-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Мужские</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>d607dee0-56df-11e9-80bd-b499ba08875e</Id>
+		<Name>Посуда</Name>
+		<Categories>
+			<Category>
+				<Id>fb2ccc79-4845-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Контейнеры и ланч-боксы</Name>
+			</Category>
+			<Category>
+				<Id>ee42ba32-6ccd-11e9-80bf-b499ba08875e</Id>
+				<Name>Кружки</Name>
+			</Category>
+			<Category>
+				<Id>2d45d0c3-109c-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Кухонные инструменты</Name>
+			</Category>
+			<Category>
+				<Id>2bfda5b3-4851-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Кухонный текстиль</Name>
+			</Category>
+			<Category>
+				<Id>85221b25-6ccf-11e9-80bf-b499ba08875e</Id>
+				<Name>Разделочные доски</Name>
+			</Category>
+			<Category>
+				<Id>37f3a1c4-6ccf-11e9-80bf-b499ba08875e</Id>
+				<Name>Салатники, креманки и миски</Name>
+			</Category>
+			<Category>
+				<Id>8bdd4165-fa8e-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Стаканы, бокалы и кувшины</Name>
+			</Category>
+			<Category>
+				<Id>5b5cdc31-fa81-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Термосы и фляжки</Name>
+			</Category>
+			<Category>
+				<Id>9ba154a5-7cc3-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Товары для купания</Name>
+			</Category>
+			<Category>
+				<Id>84e46fa0-fb53-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Товары для кухни</Name>
+			</Category>
+			<Category>
+				<Id>4f59938a-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Товары для хранения и организации пространства</Name>
+			</Category>
+			<Category>
+				<Id>34d30d88-6cd0-11e9-80bf-b499ba08875e</Id>
+				<Name>Формы для выпечки</Name>
+			</Category>
+			<Category>
+				<Id>185767a6-6ccf-11e9-80bf-b499ba08875e</Id>
+				<Name>Хлебницы и корзинки</Name>
+			</Category>
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>973fd275-8c02-11e8-810b-fc15b4f7d908</Id>
+		<Name>Спорт и отдых</Name>
+		<Categories>
+			<Category>
+				<Id>8d8f7928-6801-11e9-80bf-b499ba08875e</Id>
+				<Name>Аксессуары для путешествий</Name>
+				<Categories>
+					<Category>
+						<Id>9d6e4683-6801-11e9-80bf-b499ba08875e</Id>
+						<Name>Маска для сна</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>762dc8c0-666d-11e9-80be-b499ba08875e</Id>
+				<Name>Беговелы</Name>
+			</Category>
+
+			<Category>
+				<Id>fbdff3a9-666d-11e9-80be-b499ba08875e</Id>
+				<Name>Велосипеды</Name>
+			</Category>
+
+			<Category>
+				<Id>4f599380-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Надувная продукция</Name>
+			</Category>
+
+			<Category>
+				<Id>b8331fd1-671d-11e9-80bf-b499ba08875e</Id>
+				<Name>Ролики</Name>
+			</Category>
+
+			<Category>
+				<Id>8fc0cb5d-6739-11e9-80bf-b499ba08875e</Id>
+				<Name>Самокаты</Name>
+			</Category>
+
+			<Category>
+				<Id>f9367dd9-674c-11e9-80bf-b499ba08875e</Id>
+				<Name>Скейтборды</Name>
+			</Category>
+
+			<Category>
+				<Id>973fd276-8c02-11e8-810b-fc15b4f7d908</Id>
+				<Name>Спортивное питание</Name>
+				<Categories>
+					<Category>
+						<Id>973fd277-8c02-11e8-810b-fc15b4f7d908</Id>
+						<Name>Шейкеры и бутылки</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>7a36afdf-72d5-11e9-80bf-b499ba08875e</Id>
+		<Name>Средства защиты от насекомых и грызунов</Name>
+		<Categories>
+			<Category>
+				<Id>5ca6fefd-72d5-11e9-80bf-b499ba08875e</Id>
+				<Name>От грызунов</Name>
+			</Category>
+			<Category>
+				<Id>2bbbcd30-3eda-11e7-80f2-fc15b4f7d908</Id>
+				<Name>От комаров</Name>
+			</Category>
+			<Category>
+				<Id>568faf2e-72d5-11e9-80bf-b499ba08875e</Id>
+				<Name>От моли</Name>
+			</Category>
+			<Category>
+				<Id>5ca6ff00-72d5-11e9-80bf-b499ba08875e</Id>
+				<Name>От тараканов</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>066c6ff0-1cfa-11e8-80fd-fc15b4f7d90c</Id>
+		<Name>Сумки и чемоданы</Name>
+		<Categories>
+			<Category>
+				<Id>066c6ff1-1cfa-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Женские сумки</Name>
+				<Categories>
+					<Category>
+						<Id>f7ba05f5-7a9d-11e8-8102-fc15b4f7d90c</Id>
+						<Name>Пляжные сумки</Name>
+					</Category>
+					<Category>
+						<Id>fde9ffc6-1cfa-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Рюкзаки женские</Name>
+					</Category>
+					<Category>
+						<Id>fdf15069-6009-11e9-80be-b499ba08875e</Id>
+						<Name>Рюкзаки подростковые</Name>
+					</Category>
+					<Category>
+						<Id>066c6ff7-1cfa-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Сумки с короткими ручками</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>066c6ff2-1cfa-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Мужские сумки</Name>
+				<Categories>
+					<Category>
+						<Id>4145ca93-1cfb-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Рюкзаки мужские</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>b25bf5b7-43a1-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Рюкзаки</Name>
+				<Categories>
+					<Category>
+						<Id>fdf15069-6009-11e9-80be-b499ba08875e</Id>
+						<Name>Рюкзаки подростковые</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>4145ca9c-1cfb-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Спортивные сумки</Name>
+
+			</Category>
+			<Category>
+				<Id>066c6ff5-1cfa-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Чемоданы, сумки, чехлы для чемоданов</Name>
+				<Categories>
+					<Category>
+						<Id>b746e7ca-4a12-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Чехлы для чемоданов</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>d65bbefa-666c-11e9-80be-b499ba08875e</Id>
+		<Name>Творчество</Name>
+		<Categories>
+			<Category>
+				<Id>1245805f-578e-11e9-80bd-b499ba08875e</Id>
+				<Name>Лепка</Name>
+				<Categories>
+					<Category>
+						<Id>da47602f-0fc2-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Наборы для лепки</Name>
+					</Category>
+					<Category>
+						<Id>704e72e3-578b-11e9-80bd-b499ba08875e</Id>
+						<Name>Пластилин школьный</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>d1bd14ff-6d9e-11e9-80bf-b499ba08875e</Id>
+				<Name>Рисование</Name>
+				<Categories>
+					<Category>
+						<Id>e5890a3f-5c50-11e9-80be-b499ba08875e</Id>
+						<Name>Аппликации и раскраски</Name>
+					</Category>
+					<Category>
+						<Id>458cb7c6-0fc2-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Мольберты и доски для рисования</Name>
+					</Category>
+					<Category>
+						<Id>a0a8debe-2393-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Холсты и раскраски по номерам</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>01285bd2-1ca8-11ea-80d4-b499ba08875e</Id>
+				<Name>Товары для лепки и скульптурных работ</Name>
+				<Categories>
+					<Category>
+						<Id>c47f3496-1b18-11ea-80d4-b499ba08875e</Id>
+						<Name>Глина,гипс,пластилин скульптурный</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>9442810c-8254-11e7-80f7-fc15b4f7d90c</Id>
+		<Name>Текстиль</Name>
+		<Categories>
+			<Category>
+				<Id>f4b5a2a7-8265-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Платки носовые</Name>
+			</Category>
+			<Category>
+				<Id>998416ff-8266-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Полотенца</Name>
+			</Category>
+			<Category>
+				<Id>ab5c1b75-6023-11e9-80be-b499ba08875e</Id>
+				<Name>Полотенца банные</Name>
+			</Category>
+			<Category>
+				<Id>bb38839a-6023-11e9-80be-b499ba08875e</Id>
+				<Name>Полотенца для лица, рук и ног</Name>
+			</Category>
+			<Category>
+				<Id>c36382bd-6023-11e9-80be-b499ba08875e</Id>
+				<Name>Полотенца кухонные</Name>
+			</Category>
+			<Category>
+				<Id>d25642b1-6023-11e9-80be-b499ba08875e</Id>
+				<Name>Фартуки</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>81968b5c-3c81-11e7-80f2-fc15b4f7d908</Id>
+		<Name>Товары для детей</Name>
+		<Categories>
+			<Category>
+				<Id>95a01b86-8271-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Аксессуары для кормления</Name>
+				<Categories>
+					<Category>
+						<Id>17ef8b54-8bba-11e7-80f7-fc15b4f7d90c</Id>
+						<Name>Поильники</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>3400b308-f5c6-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Всё для ванны и душа</Name>
+			</Category>
+
+			<Category>
+				<Id>0cf43dc7-76ad-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Гигиена и уход </Name>
+				<Categories>
+					<Category>
+						<Id>dbdb8bde-75be-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Ватная продукция, Влажные салфетки</Name>
+					</Category>
+					<Category>
+						<Id>c4e7b70e-0d73-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Зубные пасты (0-7)</Name>
+					</Category>
+					<Category>
+						<Id>b0b61df0-8bba-11e7-80f7-fc15b4f7d90c</Id>
+						<Name>Зубные щетки (0-7)</Name>
+					</Category>
+					<Category>
+						<Id>9770ccc7-3c6f-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Крема для рук и ног</Name>
+					</Category>
+					<Category>
+						<Id>42d31358-0d7e-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Крема и масла для тела</Name>
+					</Category>
+					<Category>
+						<Id>35a8e315-72c5-11e8-8102-fc15b4f7d90c</Id>
+						<Name>Ополаскиватель (1-7)</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>c9ed7151-0bc5-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Детская обувь</Name>
+				<Categories>
+					<Category>
+						<Id>465110fe-3e48-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Сапоги резиновые</Name>
+					</Category>
+					<Category>
+						<Id>c9ed7152-0bc5-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Чешки</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>c6fd4d06-f5c6-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Детская одежда</Name>
+				<Categories>
+					<Category>
+						<Id>79d249f3-5a83-11e9-80bd-b499ba08875e</Id>
+						<Name>Брюки, штаны</Name>
+					</Category>
+					<Category>
+						<Id>673a094b-238d-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Варежки и перчатки</Name>
+					</Category>
+					<Category>
+						<Id>9c05d8da-188c-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Кепки детские</Name>
+					</Category>
+					<Category>
+						<Id>1001a698-1ab2-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Колготки</Name>
+					</Category>
+					<Category>
+						<Id>c7f6f395-673b-11e9-80bf-b499ba08875e</Id>
+						<Name>Купальники и плавки</Name>
+					</Category>
+					<Category>
+						<Id>38a50cd3-1ab3-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Леггинсы, шорты, бриджи</Name>
+					</Category>
+					<Category>
+						<Id>79c64a98-1cfd-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Майки</Name>
+					</Category>
+					<Category>
+						<Id>011f5b85-235b-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Носки и гольфы</Name>
+					</Category>
+					<Category>
+						<Id>10967cc0-f5d0-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Пижамы</Name>
+					</Category>
+					<Category>
+						<Id>15c07d13-ff5a-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Полукомбинезоны</Name>
+					</Category>
+					<Category>
+						<Id>79c64a97-1cfd-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Топы и бюстгалтеры</Name>
+					</Category>
+					<Category>
+						<Id>9e89c2af-1ab2-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Трусы детские</Name>
+					</Category>
+					<Category>
+						<Id>b3900044-0a3e-11e8-80fc-fc15b4f7d90c</Id>
+						<Name>Футболки</Name>
+					</Category>
+					<Category>
+						<Id>c6fd4d07-f5c6-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Халаты</Name>
+					</Category>
+					<Category>
+						<Id>efe6bdac-0a3e-11e8-80fc-fc15b4f7d90c</Id>
+						<Name>Шапки и шарфы</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>82d1ef3a-8bbb-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Детская посуда и приборы</Name>
+			</Category>
+
+			<Category>
+				<Id>e8a7a0b4-f6b8-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Детские аксессуары </Name>
+				<Categories>
+					<Category>
+						<Id>e8a7a0d9-f6b8-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Галстуки и бабочки</Name>
+					</Category>
+					<Category>
+						<Id>c04be58e-5119-11e9-80bd-b499ba08875e</Id>
+						<Name>Детская бижутерия</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>3b1b89cc-76ad-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Макияж и бижутерия</Name>
+			</Category>
+
+			<Category>
+				<Id>7b4b37e5-3735-11e8-8100-fc15b4f7d908</Id>
+				<Name>Муфта-Грелка</Name>
+			</Category>
+
+			<Category>
+				<Id>4f599380-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Надувная продукция</Name>
+			</Category>
+
+			<Category>
+				<Id>1163eb8f-5b5d-11e9-80bd-b499ba08875e</Id>
+				<Name>Одежда</Name>
+			</Category>
+
+			<Category>
+				<Id>895462b3-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Развивающие игры</Name>
+			</Category>
+
+			<Category>
+				<Id>dc58be92-1893-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Светоотражатели</Name>
+			</Category>
+
+			<Category>
+				<Id>8310ab2f-0fc2-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Спортивные товары</Name>
+			</Category>
+
+			<Category>
+				<Id>9ba154a5-7cc3-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Товары для купания</Name>
+				<Categories>
+					<Category>
+						<Id>c4e7b70f-0d73-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Гели и пена для ванн</Name>
+					</Category>
+					<Category>
+						<Id>4406dcfd-0d80-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Детский шампунь</Name>
+					</Category>
+					<Category>
+						<Id>4406dcfe-0d80-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Детское мыло</Name>
+					</Category>
+					<Category>
+						<Id>04ed3da9-3eb8-11e7-80f2-fc15b4f7d908</Id>
+						<Name>Шампуни, Бальзамы, Маски</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>5af6a49e-6008-11e9-80be-b499ba08875e</Id>
+		<Name>Товары для животных</Name>
+		<Categories>
+			<Category>
+				<Id>0e41535b-730d-11e9-80bf-b499ba08875e</Id>
+				<Name>Корма для животных</Name>
+				<Categories>
+					<Category>
+						<Id>bd28b744-600a-11e9-80be-b499ba08875e</Id>
+						<Name>Для кошек</Name>
+					</Category>
+					<Category>
+						<Id>e085c057-730f-11e9-80bf-b499ba08875e</Id>
+						<Name>Для собак</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>7d37fa95-6008-11e9-80be-b499ba08875e</Id>
+				<Name>Наполнители</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>352f40d4-7186-11e9-80bf-b499ba08875e</Id>
+		<Name>Товары для консервации</Name>
+		<Categories>
+			<Category>
+				<Id>4ea21859-7354-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Банки</Name>
+			</Category>
+			<Category>
+				<Id>22688f43-7186-11e9-80bf-b499ba08875e</Id>
+				<Name>Инструменты для консервирования</Name>
+			</Category>
+			<Category>
+				<Id>22688f41-7186-11e9-80bf-b499ba08875e</Id>
+				<Name>Крышки</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>24b332d4-f9c2-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Товары для новорожденных</Name>
+		<Categories>
+			<Category>
+				<Id>95a01b86-8271-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Аксессуары для кормления</Name>
+				<Categories>
+					<Category>
+						<Id>95a01b87-8271-11e7-80f7-fc15b4f7d90c</Id>
+						<Name>Аспираторы</Name>
+					</Category>
+					<Category>
+						<Id>95a01bc1-8271-11e7-80f7-fc15b4f7d90c</Id>
+						<Name>Бутылочки</Name>
+					</Category>
+					<Category>
+						<Id>ddaa776a-8bb9-11e7-80f7-fc15b4f7d90c</Id>
+						<Name>Молокоотсосы</Name>
+					</Category>
+					<Category>
+						<Id>35a8e33d-72c5-11e8-8102-fc15b4f7d90c</Id>
+						<Name>Нагрудники, слюнявчики</Name>
+					</Category>
+					<Category>
+						<Id>17ef8b54-8bba-11e7-80f7-fc15b4f7d90c</Id>
+						<Name>Поильники</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>4d7a8d5d-9eb0-11e7-80f9-fc15b4f7d90c</Id>
+				<Name>Аксессуары для купания</Name>
+			</Category>
+
+			<Category>
+				<Id>45592daa-827c-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Блокираторы</Name>
+			</Category>
+			<Category>
+				<Id>82d1ef3a-8bbb-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Детская посуда и приборы</Name>
+			</Category>
+			<Category>
+				<Id>895462a1-0fc0-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Игрушки для малышей</Name>
+			</Category>
+			<Category>
+				<Id>b0b61e02-8bba-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Клеёнки</Name>
+			</Category>
+			<Category>
+				<Id>bdc2c14f-6ccb-11e9-80bf-b499ba08875e</Id>
+				<Name>Коврики развивающие</Name>
+			</Category>
+			<Category>
+				<Id>1163eb8f-5b5d-11e9-80bd-b499ba08875e</Id>
+				<Name>Одежда</Name>
+				<Categories>
+					<Category>
+						<Id>65da218a-5b7f-11e9-80bd-b499ba08875e</Id>
+						<Name>Боди</Name>
+					</Category>
+					<Category>
+						<Id>63d7d4f2-5b5d-11e9-80bd-b499ba08875e</Id>
+						<Name>Наборы для крестин</Name>
+					</Category>
+					<Category>
+						<Id>3062dd53-5b73-11e9-80bd-b499ba08875e</Id>
+						<Name>Ползунки, Штанишки</Name>
+					</Category>
+					<Category>
+						<Id>7f4d1627-5b74-11e9-80bd-b499ba08875e</Id>
+						<Name>Распашонки, Кофты</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>4d7a8d77-9eb0-11e7-80f9-fc15b4f7d90c</Id>
+				<Name>Ортопедические коврики</Name>
+			</Category>
+
+			<Category>
+				<Id>9fcfb15a-da4b-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Пеленки</Name>
+			</Category>
+
+			<Category>
+				<Id>c614736a-72ba-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Подгузники</Name>
+			</Category>
+
+			<Category>
+				<Id>d67436b0-8bbb-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Пустышки</Name>
+			</Category>
+
+			<Category>
+				<Id>4d7a8d89-9eb0-11e7-80f9-fc15b4f7d90c</Id>
+				<Name>Соски</Name>
+			</Category>
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>4b572e1c-e960-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Товары для рукоделия</Name>
+		<Categories>
+			<Category>
+				<Id>bf1301cc-5c66-11e9-80be-b499ba08875e</Id>
+				<Name>Вышивание</Name>
+			</Category>
+
+			<Category>
+				<Id>bf1301cb-5c66-11e9-80be-b499ba08875e</Id>
+				<Name>Декоративные элементы</Name>
+				<Categories>
+					<Category>
+						<Id>69e7a035-5c68-11e9-80be-b499ba08875e</Id>
+						<Name>Ленты атласные</Name>
+					</Category>
+					<Category>
+						<Id>aaa70c70-5c68-11e9-80be-b499ba08875e</Id>
+						<Name>Стикеры</Name>
+					</Category>
+					<Category>
+						<Id>18216172-fb52-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Термоаппликации</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>e6048629-eafa-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Дорожные наборы</Name>
+			</Category>
+			<Category>
+				<Id>e6048638-eafa-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Красители, термоклей</Name>
+			</Category>
+			<Category>
+				<Id>514a3569-d8fa-11e7-80fa-fc15b4f7d908</Id>
+				<Name>Наборы для творчества</Name>
+			</Category>
+			<Category>
+				<Id>40675397-5c68-11e9-80be-b499ba08875e</Id>
+				<Name>Нитки</Name>
+			</Category>
+			<Category>
+				<Id>ad972281-6cd3-11e9-80bf-b499ba08875e</Id>
+				<Name>Нитки Ирис</Name>
+			</Category>
+			<Category>
+				<Id>40675398-5c68-11e9-80be-b499ba08875e</Id>
+				<Name>Нитки мулине</Name>
+			</Category>
+			<Category>
+				<Id>c9c89dbf-2b68-11e8-80fe-fc15b4f7d90c</Id>
+				<Name>Пайетки</Name>
+			</Category>
+			<Category>
+				<Id>b555b4c6-eae6-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Швейная галантерея</Name>
+				<Categories>
+					<Category>
+						<Id>69e7a034-5c68-11e9-80be-b499ba08875e</Id>
+						<Name>Иглы</Name>
+					</Category>
+					<Category>
+						<Id>893dfd62-f9dc-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Инструменты</Name>
+					</Category>
+					<Category>
+						<Id>69e7a033-5c68-11e9-80be-b499ba08875e</Id>
+						<Name>Крючки вязальные</Name>
+					</Category>
+					<Category>
+						<Id>aaa70c71-5c68-11e9-80be-b499ba08875e</Id>
+						<Name>Резинки</Name>
+					</Category>
+					<Category>
+						<Id>aaa70c72-5c68-11e9-80be-b499ba08875e</Id>
+						<Name>Спицы</Name>
+					</Category>
+					<Category>
+						<Id>18216172-fb52-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Термоаппликации</Name>
+					</Category>
+				</Categories>
+			</Category>
+		</Categories>
+	</Category>
+	
+
+	<Category>
+		<Id>778fd73b-3bb9-11e7-80f1-fc15b4f7d908</Id>
+		<Name>Хозяйственные товары</Name>
+		<Categories>
+			<Category>
+				<Id>95a01b86-8271-11e7-80f7-fc15b4f7d90c</Id>
+				<Name>Аксессуары для кормления</Name>
+			</Category>
+
+			<Category>
+				<Id>63d9593a-3bba-11e7-80f1-fc15b4f7d908</Id>
+				<Name>Батарейки и аккумуляторы</Name>
+			</Category>
+			<Category>
+				<Id>8f0a6c05-3c5b-11e7-80f2-fc15b4f7d908</Id>
+				<Name>Бумажная и влажная продукция</Name>
+			</Category>
+
+			<Category>
+				<Id>7ecceb03-34b1-11e8-8100-fc15b4f7d908</Id>
+				<Name>Бумажная продукция</Name>
+			</Category>
+
+			<Category>
+				<Id>c92224cf-6008-11e9-80be-b499ba08875e</Id>
+				<Name>Веревки бельевые</Name>
+			</Category>
+			<Category>
+				<Id>e8a7a0b4-f6b8-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Детские аксессуары </Name>
+			</Category>
+
+			<Category>
+				<Id>f730a78c-fb54-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Инвентарь для уборки</Name>
+				<Categories>
+					<Category>
+						<Id>b48b6db9-72f0-11e9-80bf-b499ba08875e</Id>
+						<Name>Вантуз</Name>
+					</Category>
+					<Category>
+						<Id>10d87403-fb69-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Губки, салфетки, тряпки</Name>
+					</Category>
+					<Category>
+						<Id>f730a78d-fb54-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Хозяйственные перчатки</Name>
+					</Category>
+					<Category>
+						<Id>bbf366b1-2780-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Швабры и щетки</Name>
+					</Category>
+					<Category>
+						<Id>27b82240-72e5-11e9-80bf-b499ba08875e</Id>
+						<Name>Щетки для посуды</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>778fd73c-3bb9-11e7-80f1-fc15b4f7d908</Id>
+				<Name>Клей</Name>
+			</Category>
+
+			<Category>
+				<Id>6846d270-494c-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Коврики</Name>
+				<Categories>
+					<Category>
+						<Id>d6ccfb73-2781-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Коврики для ванны и туалета</Name>
+					</Category>
+					<Category>
+						<Id>6846d271-494c-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Придверные коврики</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>d92d6311-6b1b-11e9-80bf-b499ba08875e</Id>
+				<Name>Контейнеры для мусора</Name>
+			</Category>
+			<Category>
+				<Id>fb2ccc79-4845-11e8-8101-fc15b4f7d90c</Id>
+				<Name>Контейнеры и ланч-боксы</Name>
+			</Category>
+			<Category>
+				<Id>ee42ba32-6ccd-11e9-80bf-b499ba08875e</Id>
+				<Name>Кружки</Name>
+			</Category>
+			<Category>
+				<Id>2d45d0c3-109c-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Кухонные инструменты</Name>
+			</Category>
+			<Category>
+				<Id>06c20b01-72b2-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Лампочки</Name>
+			</Category>
+			<Category>
+				<Id>8df291fa-3bbd-11e7-80f1-fc15b4f7d908</Id>
+				<Name>Мусорные мешки</Name>
+			</Category>
+			<Category>
+				<Id>bbf366b0-2780-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Плечики и вешалки для одежды</Name>
+			</Category>
+			<Category>
+				<Id>37f3a1c4-6ccf-11e9-80bf-b499ba08875e</Id>
+				<Name>Салатники, креманки и миски</Name>
+			</Category>
+			<Category>
+				<Id>b19fd6b9-6726-11e9-80bf-b499ba08875e</Id>
+				<Name>Салфетки</Name>
+			</Category>
+			<Category>
+				<Id>ed0081f9-fb42-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Сумки хозяйственные</Name>
+			</Category>
+			<Category>
+				<Id>4f59938d-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Сушилки для белья, прищепки</Name>
+			</Category>
+			<Category>
+				<Id>d6ccfb72-2781-11e8-80fd-fc15b4f7d90c</Id>
+				<Name>Товары для ванной и туалета</Name>
+				<Categories>
+					<Category>
+						<Id>cd837bd6-5f69-11e9-80be-b499ba08875e</Id>
+						<Name>Ведра</Name>
+					</Category>
+					<Category>
+						<Id>ddf060ae-5464-11e9-80bd-b499ba08875e</Id>
+						<Name>Ершики для унитаза</Name>
+					</Category>
+					<Category>
+						<Id>d6ccfb73-2781-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Коврики для ванны и туалета</Name>
+					</Category>
+					<Category>
+						<Id>acbad3e4-7318-11e9-80bf-b499ba08875e</Id>
+						<Name>Ковшики</Name>
+					</Category>
+					<Category>
+						<Id>8417e47f-7188-11e9-80bf-b499ba08875e</Id>
+						<Name>Мыльницы</Name>
+					</Category>
+					<Category>
+						<Id>f7bfcb2e-7188-11e9-80bf-b499ba08875e</Id>
+						<Name>Наборы для ванны и туалета</Name>
+					</Category>
+					<Category>
+						<Id>cd15713d-7188-11e9-80bf-b499ba08875e</Id>
+						<Name>Стаканы и футляры для зубных щеток</Name>
+					</Category>
+					<Category>
+						<Id>597460b0-5795-11e9-80bd-b499ba08875e</Id>
+						<Name>Тазы</Name>
+					</Category>
+					<Category>
+						<Id>77b458e6-65a9-11e9-80be-b499ba08875e</Id>
+						<Name>Футляры для зубных щеток</Name>
+					</Category>
+					<Category>
+						<Id>bbf366b1-2780-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Швабры и щетки</Name>
+					</Category>
+					<Category>
+						<Id>abb8cf0f-56e1-11e9-80bd-b499ba08875e</Id>
+						<Name>Шторки для ванной</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>9ba154a5-7cc3-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Товары для купания</Name>
+			</Category>
+
+			<Category>
+				<Id>84e46fa0-fb53-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Товары для кухни</Name>
+				<Categories>
+					<Category>
+						<Id>c4933d5e-6cc5-11e9-80bf-b499ba08875e</Id>
+						<Name>Техника для кухни</Name>
+					</Category>
+					<Category>
+						<Id>d5d3b1aa-4c4e-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Фильтры для воды</Name>
+					</Category>
+					<Category>
+						<Id>84e46fa1-fb53-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Фольга, пищевая плёнка</Name>
+					</Category>
+					<Category>
+						<Id>f793ff83-56df-11e9-80bd-b499ba08875e</Id>
+						<Name>Формы для выпечки</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>4f59938a-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Товары для хранения и организации пространства</Name>
+				<Categories>
+					<Category>
+						<Id>a2130554-6fe7-11e9-80bf-b499ba08875e</Id>
+						<Name>Крючки настенные</Name>
+					</Category>
+					<Category>
+						<Id>4f59938b-8024-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Чехлы и пакеты для одежды</Name>
+					</Category>
+					<Category>
+						<Id>27b82240-72e5-11e9-80bf-b499ba08875e</Id>
+						<Name>Щетки для посуды</Name>
+					</Category>
+				</Categories>
+			</Category>
+			
+			<Category>
+				<Id>d5321ba0-705c-11e7-80f6-fc15b4f7d908</Id>
+				<Name>Товары по уходу за одеждой и обувью</Name>
+				<Categories>
+					<Category>
+						<Id>ed008212-fb42-11e7-80fb-fc15b4f7d908</Id>
+						<Name>Ролики для одежды</Name>
+					</Category>
+					<Category>
+						<Id>d5321ba1-705c-11e7-80f6-fc15b4f7d908</Id>
+						<Name>Товары для обуви</Name>
+					</Category>
+					<Category>
+						<Id>bf452d39-00c0-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Уход за одеждой</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>4f59938c-8024-11e8-8103-fc15b4f7d90c</Id>
+				<Name>Чехлы для гладильных досок</Name>
+			</Category>
+		</Categories>
+	</Category>
+
+
+	<Category>
+		<Id>b26b8848-f045-11e7-80fb-fc15b4f7d908</Id>
+		<Name>Часы, бижутерия</Name>
+		<Categories>
+
+			<Category>
+				<Id>e8597c1a-0712-11e8-80fb-fc15b4f7d908</Id>
+				<Name>Бижутерия</Name>
+				<Categories>
+					<Category>
+						<Id>e8597c1b-0712-11e8-80fb-fc15b4f7d908</Id>
+						<Name>Браслеты</Name>
+					</Category>
+					<Category>
+						<Id>24804e3f-4853-11e8-8101-fc15b4f7d90c</Id>
+						<Name>Броши и Подвески</Name>
+					</Category>
+					<Category>
+						<Id>33e2d149-0bc7-11e8-80fd-fc15b4f7d90c</Id>
+						<Name>Кольца</Name>
+					</Category>
+					<Category>
+						<Id>10272f40-6737-11e9-80bf-b499ba08875e</Id>
+						<Name>Наборы бижутерии</Name>
+					</Category>
+					<Category>
+						<Id>f107c582-7443-11e8-8102-fc15b4f7d90c</Id>
+						<Name>Серьги</Name>
+					</Category>
+					<Category>
+						<Id>a42760a0-5114-11e9-80bd-b499ba08875e</Id>
+						<Name>Футляры и подставки для бижутерии</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+			<Category>
+				<Id>b26b8847-f045-11e7-80fb-fc15b4f7d908</Id>
+				<Name>Часы</Name>
+				<Categories>
+					<Category>
+						<Id>833d1bbc-7f57-11e8-8103-fc15b4f7d90c</Id>
+						<Name>Детские часы</Name>
+					</Category>
+					<Category>
+						<Id>83de7957-5465-11e9-80bd-b499ba08875e</Id>
+						<Name>Женские часы</Name>
+					</Category>
+					<Category>
+						<Id>83de7956-5465-11e9-80bd-b499ba08875e</Id>
+						<Name>Мужские часы</Name>
+					</Category>
+				</Categories>
+			</Category>
+
+		</Categories>
+	</Category>
+	
+</Categories>

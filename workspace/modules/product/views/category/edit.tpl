@@ -4,7 +4,7 @@
 <div class="h1">{$h1} {$model->name}</div>
 
 <div class="container">
-    <form class="form-horizontal" name="edit_form" id="edit_form" method="post" action="/category/update/{$model->id}">
+    <form class="form-horizontal" name="edit_form" id="edit_form" method="post" action="/admin/category/update/{$model->id}">
         <div class="form-group">
             <label for="firstname">Name:</label>
             <input type="text" name="name" id="name" class="form-control" required="required" value="{$model->name}" />
