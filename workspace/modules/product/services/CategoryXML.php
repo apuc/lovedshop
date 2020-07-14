@@ -35,15 +35,17 @@ class CategoryXML
 
     public static function addCategory($category, $parent = null){
         $count = self::checkChild($category);
-        if(!$parent)
+        if(!$parent) {
+            $level = 0;
             $max_right = NestedSet::getMaxRight();
-        else {
+        } else {
+            $level = $parent->level+1;
             $max_right = NestedSet::getLastChildRight($parent->slug);
         }
         $new = new Category();
         $new->left_key = $max_right+1;
         $new->right_key = $max_right + ($count*2);
-        $new->level = 1;
+        $new->level = $level;
         $new->name = $category->Name;
         $new->id = $category->Id;
         $new->title = $category->Name;
