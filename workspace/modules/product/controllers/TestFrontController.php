@@ -94,4 +94,10 @@ class TestFrontController extends Controller
         return $this->render('product.tpl', ['model' => $model]);
     }
 
+    public function actionCart($id)
+    {
+        $model = Product::where('id', $id)->first();
+        return $this->render('cart.tpl', ['model' => $model]);
+    }
+
 }
