@@ -36,10 +36,10 @@ class ProductCSV
                     $product->status = 1;
                     $product->save();
 
-                    $vp = new VirtualProduct();
-                        $vp->product_id = $prod[1];
-                        $vp->price = 250;
-                        $vp->save();
+//                    $vp = new VirtualProduct();
+//                        $vp->product_id = $prod[1];
+//                        $vp->price = 250;
+//                        $vp->save();
 
                     $file_name = md5(time(). rand(0, 999999));
                     $dir = "resources".DIRECTORY_SEPARATOR."img".DIRECTORY_SEPARATOR."product".DIRECTORY_SEPARATOR."product_".$product->id.DIRECTORY_SEPARATOR;
@@ -54,25 +54,30 @@ class ProductCSV
                 }
             }
         }
-//       $k = 0;
-//        foreach (file('price.csv') as $price){
-//            if($k === 0) {
-//                $k++;
-//                continue;
-//            }
-//            $price = str_getcsv($price,';');
-//            $id = VirtualProduct::where('product_id',$price[0])->first();
-//            if(empty($id)){
-//                if($price[0] && $price[4]) {
-//                    if(!empty(Product::where('id',$price[0])->first())) {
-//                        $vp = new VirtualProduct();
-//                        $vp->product_id = $price[0];
-//                        $vp->price = $price[4];
-//                        $vp->save();
-//                    }
-//                }
-//            }
-//        }
+       $k = 0;
+        foreach (file('price.csv') as $price){
+            if($k === 0) {
+                $k++;
+                continue;
+            }
+            $price = str_getcsv($price,';');
+            $id = VirtualProduct::where('product_id',$price[0])->first();
+            if($price[0] && $price[3] && $price[4]) {
+                if (empty($id)) {
+                    if (!empty(Product::where('id', $price[0])->first())) {
+                        $vp = new VirtualProduct();
+                        $vp->product_id = $price[0];
+                        $vp->price = $price[4];
+                        $vp->balance = $price[3];
+                        $vp->save();
+                    }
+                } else {
+                    $id->price = $price[4];
+                    $id->balance = $price[3];
+                    $id->save();
+                }
+            }
+        }
     }
 
     public static function run(){
