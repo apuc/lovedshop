@@ -34,7 +34,7 @@ class ProductCSV
                     $product->title = $prod[2];
                     $product->description = $prod[5];
                     $product->status = 1;
-                    $product->save();
+                    if(!$product->save()) continue;
 
 //                    $vp = new VirtualProduct();
 //                        $vp->product_id = $prod[1];
