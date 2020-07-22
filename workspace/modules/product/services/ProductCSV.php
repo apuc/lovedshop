@@ -10,6 +10,7 @@ use workspace\modules\order\services\Ftp;
 use workspace\modules\product\models\Product;
 use workspace\modules\product\models\ProductPhoto;
 use workspace\modules\product\models\VirtualProduct;
+use workspace\modules\product\requests\ProductRequest;
 
 class ProductCSV
 {
@@ -19,6 +20,7 @@ class ProductCSV
     {
        // Ftp::run(App::$config['FTP'])->getFile('product.csv','orders/product.csv');
         $i = 0;
+        $request = new ProductRequest();
         foreach (file('product.csv') as $prod){
             if($i === 0) {
                 $i++;
@@ -34,7 +36,8 @@ class ProductCSV
                     $product->title = $prod[2];
                     $product->description = $prod[5];
                     $product->status = 1;
-                    if(!$product->save()) continue;
+                    if (!$request->validate()) continue;
+                    $product->save();
 
 //                    $vp = new VirtualProduct();
 //                        $vp->product_id = $prod[1];

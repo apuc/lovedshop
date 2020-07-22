@@ -23,6 +23,7 @@ class ProductRequest extends Request
     public function rules()
     {
         return [
+            'id' =>  'required|integer',
             'name' => 'required',
             'description' => 'required',
             'status' => 'required|integer',
