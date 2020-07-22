@@ -20,7 +20,6 @@ class ProductCSV
     {
        // Ftp::run(App::$config['FTP'])->getFile('product.csv','orders/product.csv');
         $i = 0;
-        $request = new ProductRequest();
         foreach (file('product.csv') as $prod){
             if($i === 0) {
                 $i++;
@@ -36,6 +35,7 @@ class ProductCSV
                     $product->title = $prod[2];
                     $product->description = $prod[5];
                     $product->status = 1;
+                    $request = new ProductRequest($product);
                     if (!$request->validate()) continue;
                     $product->save();
 

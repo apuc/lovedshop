@@ -171,7 +171,7 @@ class Request
             }
         }
         elseif (!empty($data)){
-            foreach ($data as $key => $item){
+            foreach ((array)$data as $key => $item){
                 $this->{$key} = $item;
                 $this->data[$key] = $item;
             }
