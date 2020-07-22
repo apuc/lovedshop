@@ -35,7 +35,7 @@ class ProductCSV
                     $product->title = $prod[2];
                     $product->description = $prod[5];
                     $product->status = 1;
-                    $request = new ProductRequest($product);
+                    $request = new ProductRequest($product->toArray());
                     if (!$request->validate()) continue;
                     $product->save();
 
