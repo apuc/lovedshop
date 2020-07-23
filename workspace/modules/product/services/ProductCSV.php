@@ -18,7 +18,8 @@ class ProductCSV
 
     public function executeCSV($path = 'product.csv')
     {
-       // Ftp::run(App::$config['FTP'])->getFile('product.csv','orders/product.csv');
+        $ftp = Ftp::run(App::$config['FTP']);
+       // $ftp->getFile('product.csv','orders/product.csv');
         $i = 0;
         foreach (file('product.csv') as $prod){
             if($i === 0) {
@@ -49,7 +50,7 @@ class ProductCSV
                     if (!file_exists($dir))
                         mkdir($dir, 0775);
                     $info =  new SplFileInfo("goods".DIRECTORY_SEPARATOR.$prod[4]);
-                    Ftp::run(App::$config['FTP'])->getFile(ROOT_DIR.DIRECTORY_SEPARATOR.$dir.$file_name.".".$info->getExtension(), "goods".DIRECTORY_SEPARATOR.$prod[4], FTP_BINARY);
+                    $ftp->getFile(ROOT_DIR.DIRECTORY_SEPARATOR.$dir.$file_name.".".$info->getExtension(), "goods".DIRECTORY_SEPARATOR.$prod[4], FTP_BINARY);
                     $photo = new ProductPhoto();
                     $photo->product_id = $prod[1];
                     $photo->photo = $dir.$file_name.".".$info->getExtension();
@@ -57,7 +58,8 @@ class ProductCSV
                 }
             }
         }
-       $k = 0;
+        $ftp->close();
+        $k = 0;
         foreach (file('price.csv') as $price){
             if($k === 0) {
                 $k++;

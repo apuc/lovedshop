@@ -18,10 +18,11 @@ class Ftp
         $this->login = $data['login'];
         $this->port = $data['port'];
         $this->pass = $data['pass'];
-
+        if(!ftp_connect($this->host, $this->port))
+            exit("Не могу соединиться");
         $this->connection = ftp_connect($this->host, $this->port);
         if (!ftp_login($this->connection, $this->login, $this->pass))
-            exit("Не могу соединиться");
+            exit("Не могу залогиниться");
         ftp_pasv($this->connection, true);
     }
 
@@ -60,6 +61,14 @@ class Ftp
             return true;
         }
         return null;
+    }
+
+    /**
+     *
+     */
+    public function close()
+    {
+        ftp_close($this->connection);
     }
 
     /**
