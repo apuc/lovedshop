@@ -35,6 +35,9 @@ class ProductController extends Controller
         $options = [
             'serial' => '#',
             'fields' => [
+                'id' =>[
+                    'label' => 'Номер товара'
+                ],
                 'name' => [
                     'label' => 'Название'
                 ],
