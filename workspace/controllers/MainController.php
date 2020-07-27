@@ -22,6 +22,7 @@ class MainController extends Controller
 
     public function actionIndex()
     {
+        $this->redirect('catalog');
         $this->view->setTitle('Main Page');
         $this->view->addMeta('keywords', 'главная', ['some' => 'text']);
         echo Form::start('test', [
