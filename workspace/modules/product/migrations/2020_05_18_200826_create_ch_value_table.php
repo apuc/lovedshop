@@ -18,7 +18,7 @@ class CreateChValueTable extends Migration
             $table->increments('id');
             $table->integer('characteristic_id')->unsigned();
             $table->string('value',255);
-            $table->foreign('characteristic_id')->references('id')->on('characteristic');
+            //$table->foreign('characteristic_id')->references('id')->on('characteristic');
         });
     }
 
@@ -29,9 +29,9 @@ class CreateChValueTable extends Migration
      */
     public function down()
     {
-        App::$db->schema->table('ch_value', function ($table) {
-            $table->dropForeign(['characteristic_id']);
-        });
+//        App::$db->schema->table('ch_value', function ($table) {
+//            $table->dropForeign(['characteristic_id']);
+//        });
         App::$db->schema->dropIfExists('ch_value');
     }
 }

@@ -19,7 +19,7 @@ class CreateAttrValueTable extends Migration
             $table->integer('attr_id')->unsigned();
             $table->string('value',255);
             $table->timestamps();
-            $table->foreign('attr_id')->references('id')->on('attribute');
+            //$table->foreign('attr_id')->references('id')->on('attribute');
         });
     }
 
@@ -30,9 +30,9 @@ class CreateAttrValueTable extends Migration
      */
     public function down()
     {
-        App::$db->schema->table('attr_value', function ($table) {
-            $table->dropForeign(['attr_id']);
-        });
+//        App::$db->schema->table('attr_value', function ($table) {
+//            $table->dropForeign(['attr_id']);
+//        });
         App::$db->schema->dropIfExists('attr_value');
     }
 }

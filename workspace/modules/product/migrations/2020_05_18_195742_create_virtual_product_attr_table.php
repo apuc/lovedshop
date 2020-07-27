@@ -19,8 +19,8 @@ class CreateVirtualProductAttrTable extends Migration
             $table->integer('attr_value_id')->unsigned();
             $table->integer('virtual_product_id')->unsigned();
             $table->tinyInteger('status');
-            $table->foreign('attr_value_id')->references('id')->on('attr_value');
-            $table->foreign('virtual_product_id')->references('id')->on('virtual_product');
+//            $table->foreign('attr_value_id')->references('id')->on('attr_value');
+//            $table->foreign('virtual_product_id')->references('id')->on('virtual_product');
         });
     }
 
@@ -31,10 +31,10 @@ class CreateVirtualProductAttrTable extends Migration
      */
     public function down()
     {
-        App::$db->schema->table('virtual_product_attr', function ($table) {
-            $table->dropForeign(['attr_value_id']);
-            $table->dropForeign(['virtual_product_id']);
-        });
+//        App::$db->schema->table('virtual_product_attr', function ($table) {
+//            $table->dropForeign(['attr_value_id']);
+//            $table->dropForeign(['virtual_product_id']);
+//        });
         App::$db->schema->dropIfExists('virtual_product_attr');
     }
 }
