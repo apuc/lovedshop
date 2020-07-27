@@ -70,16 +70,17 @@ class TestFrontController extends Controller
             $model->delivery_time = $request->delivery_time;
             $model->address = $request->address;
             $model->comment = $request->comment;
-            $model->total_price = $vproduct->price*$request->quantity;
+            if(!$vproduct){$pr = 100;}else{$pr = $vproduct->price;}
+            $model->total_price = $pr*$request->quantity;
             $model->save();
             $prodmodel = new OrderProduct();
             $prodmodel->order_id = $model->id;
             $prodmodel->product_id = $product->id;
             $prodmodel->quantity = $request->quantity;
             $prodmodel->save();
-            $xml =  OrderXml::run()->createXml($model,$prodmodel);
-            $xml->save();
-            Ftp::run(App::$config['FTP'])->putFile(ROOT_DIR.DIRECTORY_SEPARATOR.'test.xml', 'orders'.DIRECTORY_SEPARATOR.'order_'.$model->id.'.xml');
+            //$xml =  OrderXml::run()->createXml($model,$prodmodel);
+            //$xml->save();
+            //Ftp::run(App::$config['FTP'])->putFile(ROOT_DIR.DIRECTORY_SEPARATOR.'test.xml', 'orders'.DIRECTORY_SEPARATOR.'order_'.$model->id.'.xml');
             $this->redirect('catalog');
         } else
             return $this->render('order.tpl', [

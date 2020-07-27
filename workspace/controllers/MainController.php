@@ -96,7 +96,7 @@ class MainController extends Controller
             $_SESSION['role'] = $model->role;
             $_SESSION['username'] = $model->username;
 
-            $this->redirect('');
+            $this->redirect('admin/product');
         }
 
         return $this->render('main/sign-up.tpl', ['errors' => $request->getMessagesArray()]);
@@ -113,7 +113,7 @@ class MainController extends Controller
                 $_SESSION['role'] = $model->role;
                 $_SESSION['username'] = $model->username;
 
-                $this->redirect('');
+                $this->redirect('admin/product');
             }
         }
 

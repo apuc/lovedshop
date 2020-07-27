@@ -51,14 +51,26 @@
             <div class="card_order">
                 <form action="">
                     <p>Цена:</p>
-                    <div class="card_order__price">{$model->vp->first()->price} &#8381;</div>
+                    <div class="card_order__price">
+                        {if isset($model->vp->first())}
+                            {$model->vp->first()->price}
+                        {else}
+                            100
+                        {/if}
+                        &#8381;</div>
                     <div class="card_order__calc">
                         <button class="card_order__minus"><img src="/resources/img/minus.svg" alt=""></button>
                         <input type="text" value="1">
                         <button class="card_order__plus"><img src="/resources/img/plus.svg" alt=""></button>
                     </div>
                     <button class="add_to_cart"><a href="/testfront/cart/{$model->id}">Добавить в корзину</a></button>
-                    <div class="card_order_available">Доступно: <span>{$model->vp->first()->balance}</span></div>
+                    <div class="card_order_available">Доступно: <span>
+                            {if isset($model->vp->first())}
+                                {$model->vp->first()->balance}
+                            {else}
+                                4
+                            {/if}
+                        </span></div>
                 </form>
             </div>
         </div>

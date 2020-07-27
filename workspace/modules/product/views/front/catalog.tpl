@@ -41,7 +41,13 @@
                         <div class="main_catalog__items-item_title">
                             <a href="/testfront/oneproduct/{$mode->id}">{$mode->name}</a>
                         </div>
-                        <div class="main_catalog__items-item_price">{$mode->vp->first()->price} &#8381;</div>
+                        <div class="main_catalog__items-item_price">
+                            {if isset($mode->vp->first())}
+                            {$mode->vp->first()->price}
+                            {else}
+                            100
+                            {/if}
+                            &#8381;</div>
                         <div class="main_catalog__items-item_tocart">
                             <a href="/testfront/cart/{$mode->id}"><img src="/resources/img/cart.svg" alt=""></a>
                         </div>
