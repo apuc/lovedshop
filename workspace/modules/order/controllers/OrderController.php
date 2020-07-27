@@ -36,7 +36,6 @@ class OrderController extends Controller
     {
         $request = new OrderSearchRequest();
         $model = Order::search($request);
-
         $options = [
             'serial' => '#',
             'fields' => [
@@ -93,7 +92,6 @@ class OrderController extends Controller
     public function actionView($id)
     {
         $model = Order::where('id', $id)->first();
-
         $options = [
             'fields' => [
                 'city' => 'Город',
@@ -108,6 +106,13 @@ class OrderController extends Controller
                 'address' => 'Адрес',
                 'comment' => 'Комментарий',
                 'total_price' => 'Сумма заказа',
+                'product' => [
+                    'label' => 'Номер товара',
+                    'value' => function ($model) {
+                        $product = OrderProduct::where('order_id',$model->id)->first();
+                        return isset($product->product_id) ? $product->product_id : null;
+                    }
+                ],
             ],
         ];
 
