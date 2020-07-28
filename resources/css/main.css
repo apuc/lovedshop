@@ -49,3 +49,7 @@
 .transparent {
     opacity: 0;
 }
+
+.pagination_button {
+    float: right;
+}

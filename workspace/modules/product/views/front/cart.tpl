@@ -78,7 +78,7 @@
                             350
                         {/if}
                         &#8381;</div>
-                    <button class="add_to_cart"><a href="/testfront/order/{$model->id}">Оформить заказ</a>></button>
+                    <button class="add_to_cart"><a style="color: white" href="/testfront/order/{$model->id}">Оформить заказ</a></button>
                 </div>
                 <a href="/catalog" class="clear_cart">Очистить корзину</a>
             </div>

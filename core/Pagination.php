@@ -92,7 +92,7 @@ class Pagination extends Widget
 
         if($this->page - 1 > 0)
             if($current_page)
-                $this->buttons .= '<div><a href="' . $this->url . 1 . '" class="' . $class_control .'" title="start">'
+                $this->buttons .= '<a href="' . $this->url . 1 . '" class="' . $class_control .'" title="start">'
                     . $start . '</a> <a href="' . $this->url . ($this->page - 1) .'" class="' . $class_control
                     . '" title="previous">' . $prev . '</a> ';
             else
@@ -129,7 +129,7 @@ class Pagination extends Widget
             else
                 $this->buttons .= '<a href="' .  $this->url . '?page=' . ($this->page + 1) . '" class="'
                     . $class_control .'" title="next">' . $next . '</a> <a href="' . $this->url . '?page='
-                    . $this->amount_of_buttons .'" class="' . $class_control . '" title="end">' . $end . '</a></div>';
+                    . $this->amount_of_buttons .'" class="' . $class_control . '" title="end">' . $end . '</a>';
     }
 
     public function getButtons()

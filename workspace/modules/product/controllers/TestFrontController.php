@@ -35,7 +35,7 @@ class TestFrontController extends Controller
             $options = [
                 'pagination' => [
                     'per_page' => 10,
-                    'class' => '',
+                    'class' => 'pagination_button',
                     'class-active' => 'active',
                     'class-control' => '',
                 ]
