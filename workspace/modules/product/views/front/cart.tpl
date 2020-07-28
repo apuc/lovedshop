@@ -42,11 +42,11 @@
                                     &#8381;</span></div>
                         </div>
                         <div class="cart_item__count">
-                            <div class="cart_item__count-calc">
-                                <button class="card_item__minus"><img src="img/minus.svg" alt=""></button>
-                                <input type="text" value="6">
-                                <button class="card_item__plus"><img src="img/plus.svg" alt=""></button>
-                            </div>
+{*                            <div class="cart_item__count-calc">*}
+{*                                <button class="card_item__minus"><img src="img/minus.svg" alt=""></button>*}
+{*                                <input type="text" value="6">*}
+{*                                <button class="card_item__plus"><img src="img/plus.svg" alt=""></button>*}
+{*                            </div>*}
                             <div class="card_item__available">Доступно: <span>
                                     {if isset($model->vp->first())}
                                         {$model->vp->first()->balance}
